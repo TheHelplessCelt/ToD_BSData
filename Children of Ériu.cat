@@ -171,18 +171,6 @@ Some Formations in your army may also have abilities that require you to spend S
             <characteristic name="Command" typeId="0dfc-1b4c-c35a-8a03">8</characteristic>
           </characteristics>
         </profile>
-        <profile id="d17c-0ebb-9810-b80b" name="King, Warrior, Master" hidden="true" typeId="92ef-c043-1c14-70b5" typeName="Devotion Ability">
-          <modifiers>
-            <modifier type="set" field="hidden" value="false">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b3d8-4f8e-cddf-eff9" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="Description" typeId="149d-d3dd-787d-169c">Each time this Formation is selected to Activate in the Activation Step, select a friendly non-LEGENDARY non-CHARACTER Formation within 12” of this Formation. The Selected Formation may Activate immediately after this Formation.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="324c-719e-4f75-ff5f" name="Weapons" hidden="false">
@@ -301,6 +289,18 @@ Some Formations in your army may also have abilities that require you to spend S
                 <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">Each time this Formation destroys an enemy LEGENDARY, DEITY or MONSTER Formation, select a friendly non-LEGENDARY Formation wholly within 18” of this Formation. Until the end of the round, add 1 to the Attacks Characteristic of weapons the selected Formation is equipped with. Each Formation can only be targeted by this ability once per round.</characteristic>
               </characteristics>
             </profile>
+            <profile id="4a96-945b-ea40-0773" name="King, Warrior, Master" hidden="true" typeId="92ef-c043-1c14-70b5" typeName="Devotion Ability">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="b3d8-4f8e-cddf-eff9" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Description" typeId="149d-d3dd-787d-169c">Each time this Formation is selected to Activate in the Activation Step, select a friendly non-LEGENDARY non-CHARACTER Formation within 12” of this Formation. The Selected Formation may Activate immediately after this Formation.</characteristic>
+              </characteristics>
+            </profile>
           </profiles>
         </infoGroup>
         <infoGroup id="b27c-dbed-e4c8-72b1" name="Heroics" hidden="false">
@@ -335,7 +335,11 @@ Some Formations in your army may also have abilities that require you to spend S
         <categoryLink id="d8ea-386e-55ff-0bd8" name="TUATHA" hidden="false" targetId="107c-31d1-7f15-7de7" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="b3d8-4f8e-cddf-eff9" name="Warlord" hidden="false" collective="false" import="true" targetId="d87d-0514-aebf-61a3" type="selectionEntry"/>
+        <entryLink id="b3d8-4f8e-cddf-eff9" name="Warlord" hidden="false" collective="false" import="true" targetId="d87d-0514-aebf-61a3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93fb-fa4a-13ff-17a7" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
