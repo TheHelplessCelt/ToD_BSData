@@ -60,6 +60,47 @@
         <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="1400.0"/>
       </costs>
     </entryLink>
+    <entryLink id="7c57-1892-8f1b-0d74" name="The Morrígan" hidden="false" collective="false" import="true" targetId="9589-f008-3ef8-431b" type="selectionEntry">
+      <costs>
+        <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="1200.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="f070-7b5d-afaa-8925" name="Donn" hidden="false" collective="false" import="true" targetId="02cf-c640-9213-1616" type="selectionEntry">
+      <costs>
+        <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="1200.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="565c-f7da-45f8-b783" name="Cú Chulainn" hidden="false" collective="false" import="true" targetId="4bfb-eb90-bd5e-5fb8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b01e-4ae2-02f3-e570" name="New CategoryLink" hidden="false" targetId="10c5-1200-a42c-d518" primary="true"/>
+        <categoryLink id="7edd-89d0-44eb-0c0f" name="INFANTRY" hidden="false" targetId="ceee-6162-35bc-a96c" primary="false"/>
+        <categoryLink id="fd9f-11a1-8a43-ada8" name="LEGENDARY" hidden="false" targetId="bc39-4e44-a622-2b06" primary="false"/>
+        <categoryLink id="97e5-40ed-4b18-df07" name="ULSTER CYCLE" hidden="false" targetId="6341-ef34-98d5-a3aa" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="400.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="8718-9526-588a-5553" name="Fionn mac Cumhaill" hidden="false" collective="false" import="true" targetId="16ed-7595-67e9-6adc" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="994f-7f1c-3dab-0543" name="New CategoryLink" hidden="false" targetId="10c5-1200-a42c-d518" primary="true"/>
+        <categoryLink id="58ba-8590-58f8-426b" name="FIANNA CYCLE" hidden="false" targetId="8e76-42d2-d2a9-ada4" primary="false"/>
+        <categoryLink id="c8ed-f5f7-7062-bd3d" name="INFANTRY" hidden="false" targetId="ceee-6162-35bc-a96c" primary="false"/>
+        <categoryLink id="0def-90ee-0b9e-034a" name="LEGENDARY" hidden="false" targetId="bc39-4e44-a622-2b06" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="600.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="b6ac-4822-00b1-bdae" name="Ard-Rí" hidden="false" collective="false" import="true" targetId="3c74-a4e8-46b8-812f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="52a8-212b-6b37-edef" name="New CategoryLink" hidden="false" targetId="10c5-1200-a42c-d518" primary="true"/>
+        <categoryLink id="fe46-c0b4-877b-02f6" name="New CategoryLink" hidden="false" targetId="ceee-6162-35bc-a96c" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="250.0"/>
+      </costs>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="cb7e-0b2f-baef-5a0b" name="Faction Ability" hidden="false" collective="false" import="true" type="upgrade">
@@ -150,6 +191,7 @@ Some Formations in your army may also have abilities that require you to spend S
     <selectionEntry id="b93c-d50d-f62b-2991" name="Subfaction" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2267-5b78-faeb-5907" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56e5-d0fd-9b47-b319" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="924d-f20f-0dec-d4cb" name="New CategoryLink" hidden="false" targetId="8e72-4f3d-bfb2-b91e" primary="true"/>
@@ -253,7 +295,7 @@ Some Formations in your army may also have abilities that require you to spend S
         </infoGroup>
         <infoGroup id="a1b7-31fe-6c18-c21e" name="Magic" hidden="false">
           <profiles>
-            <profile id="8c6e-bc75-d6df-2d61" name="MAGE" hidden="false" typeId="7c2f-d43d-124c-b04f" typeName="MAGE">
+            <profile id="8c6e-bc75-d6df-2d61" name="MAGE LEVEL" hidden="false" typeId="7c2f-d43d-124c-b04f" typeName="MAGE">
               <characteristics>
                 <characteristic name="Mage Level" typeId="973b-1c4f-57f3-d4ec">3</characteristic>
                 <characteristic name="Mana" typeId="ead1-359a-f442-7dc5">30</characteristic>
@@ -422,7 +464,7 @@ Some Formations in your army may also have abilities that require you to spend S
         </infoGroup>
         <infoGroup id="8a06-1ece-0261-8567" name="Magic" hidden="false">
           <profiles>
-            <profile id="8e44-21a6-8999-cbd8" name="MAGE" hidden="false" typeId="7c2f-d43d-124c-b04f" typeName="MAGE">
+            <profile id="8e44-21a6-8999-cbd8" name="MAGE LEVEL" hidden="false" typeId="7c2f-d43d-124c-b04f" typeName="MAGE">
               <characteristics>
                 <characteristic name="Mage Level" typeId="973b-1c4f-57f3-d4ec">3</characteristic>
                 <characteristic name="Mana" typeId="ead1-359a-f442-7dc5">30</characteristic>
@@ -526,6 +568,811 @@ Some Formations in your army may also have abilities that require you to spend S
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="1400.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9589-f008-3ef8-431b" name="The Morrígan" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6853-4927-77a7-9b51" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="bfcc-ad89-311b-8af6" name="The Morrígan" hidden="false" typeId="887c-f433-52eb-6983" typeName="Formation Statblock">
+          <characteristics>
+            <characteristic name="Move" typeId="2cf7-cf06-d23e-9b8a">10&quot;</characteristic>
+            <characteristic name="Dash" typeId="6cd7-c82b-d03e-dbbd">6&quot;</characteristic>
+            <characteristic name="Health" typeId="c61c-0386-7ff1-cfa0">32</characteristic>
+            <characteristic name="Will" typeId="3e46-9fc8-86f6-1bc5">6+</characteristic>
+            <characteristic name="Armour" typeId="7fbc-6b2f-f2c0-ff9f">4+</characteristic>
+            <characteristic name="Durability" typeId="eb56-7a27-3e4a-8e75">5+</characteristic>
+            <characteristic name="Actions" typeId="708a-ef06-1356-6d3e">3</characteristic>
+            <characteristic name="Focus" typeId="8a1d-2d56-bcfc-a3c2">6</characteristic>
+            <characteristic name="Command" typeId="0dfc-1b4c-c35a-8a03">6</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoGroups>
+        <infoGroup id="0f5e-db8d-2d53-09c4" name="Abilities" hidden="false">
+          <profiles>
+            <profile id="1f21-6467-5425-f452" name="Three Aspects of Morrígna " hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">At the start of each round, before rolling initiative, you may select one of the Aspects below to apply to this Formation until the end of the round:
+
+- Aspect of Badb
+Add 4” to this Formation’s Movement Characteristic and this Formation has the FLY Tag.
+
+- Aspect of Macha
+Each time this Formation performs an Activation, if this Formation successfully deals damage as part of that Action, the Formation that suffered that damage must make a Will roll.
+
+- Aspect of Anu (Aura) 
+Whenever an enemy Formation ends the Movement Step within 6” of this Formation, that enemy Formation gains D3 Spite Tokens.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0f06-fec3-a3b7-4818" name="Tuatha Dé Dannan" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">This Formation has the Godly Form 5+ and Spite of the Aes Sídhe abilities.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="251d-d9de-adb3-6833" name="Foretell their Doom" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">Instead of deploying this Formation as normal, you must instead place a Foretell Doom Token on the field. This Token can be placed anywhere that is more than 9&quot; away from any enemy models and has the size of a 100mm Base.
+
+At the start of each Movement Step, you may move the Foretell Doom Token up to 9&quot; but it cannot end within 3&quot; of any enemy models. Enemy Formations within 9&quot; of the Foretell Doom Token must subtract 3 from Will rolls.
+
+Enemy Formations cannot end any Movement within 3” of the Foretell Doom Token.
+
+At the end of each Movement Step, roll a D6. On the result of 3+ (add 1 to the result for each round after the first), remove the Foretell Doom Token from the field and place this Formation as close as possible to its previous position and more than 3&quot; away from any enemy models.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="5021-aa13-61c4-fba7" name="Twin Spears" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">When this Formation makes melee attacks with its Twin Spears weapon while performing an Action, select either the Strike or Sweep profile to make all of those attacks with.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="c35d-0659-d144-8c0f" name="Heroics" hidden="false">
+          <profiles>
+            <profile id="e30b-5eb1-d465-4311" name="Flock of Crones " hidden="false" typeId="7e00-97fa-e372-de69" typeName="Heroic">
+              <characteristics>
+                <characteristic name="Focus" typeId="80e7-2ca3-3541-ee59">3</characteristic>
+                <characteristic name="Description" typeId="09a5-97e1-8bdf-b2b4">Use this Heroic at the start of the round. You may select 1 additional Aspect from this Formation’s Three Aspects of Morrígna ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="4aaa-ab0e-26e6-345c" name="Magic" hidden="false">
+          <profiles>
+            <profile id="3b08-385e-e4b2-49dc" name="MAGE LEVEL" hidden="false" typeId="7c2f-d43d-124c-b04f" typeName="MAGE">
+              <characteristics>
+                <characteristic name="Mage Level" typeId="973b-1c4f-57f3-d4ec">3</characteristic>
+                <characteristic name="Mana" typeId="ead1-359a-f442-7dc5">30</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c337-ec9e-10dc-de29" name="Foretell victory " hidden="false" typeId="c0fb-45e8-4c55-1a93" typeName="Amplified Magic Spell">
+              <characteristics>
+                <characteristic name="Casting Value" typeId="027b-4299-3d33-9ed5">11+</characteristic>
+                <characteristic name="Mana Cost" typeId="5936-9ff2-4078-6b0a">10</characteristic>
+                <characteristic name="Description" typeId="2c83-3837-6611-052d">Until the start of the next Siege Step, add 3 to Will rolls made for friendly Formations within 12” of this Formation and subtract 3 from Will rolls made for enemy Formations within 12” of this Formation.</characteristic>
+                <characteristic name="Amplified Cost" typeId="b763-de80-6550-08ce">2</characteristic>
+                <characteristic name="Amplified Effect" typeId="cb5b-84dc-988d-68e1">Increase the range of this Spell to 24”.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="5ed9-b830-809b-e706" name="Weapons" hidden="false">
+          <profiles>
+            <profile id="2e36-35cc-52a2-757d" name="The Morrígan’s Scream" hidden="false" typeId="724e-177d-72f6-2e34" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="a043-4a74-9e04-818d">18&quot;</characteristic>
+                <characteristic name="Attacks" typeId="e7dc-7248-6581-6a5e">D6+2</characteristic>
+                <characteristic name="Hit" typeId="617c-ae43-0c5f-fc05">3+</characteristic>
+                <characteristic name="Wound" typeId="c9f3-9662-cd72-d446">3+</characteristic>
+                <characteristic name="Rend" typeId="2325-6660-26ab-e356">2</characteristic>
+                <characteristic name="Damage" typeId="e5a5-8c0b-c8ce-3e1d">1</characteristic>
+                <characteristic name="Abilities" typeId="0dc5-c999-dc75-4574">Brutal, Devastating, Enchanted 10</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a657-aa4e-485a-b166" name="Twin Spears (Strike)" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">3&quot;</characteristic>
+                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">3</characteristic>
+                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">3</characteristic>
+                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">4</characteristic>
+                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Brutal, Devastating, Pierce 1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8dd5-eaad-e973-2ddf" name="Twin Spears (Swing)" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">3&quot;</characteristic>
+                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">7</characteristic>
+                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">1</characteristic>
+                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">2</characteristic>
+                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Pierce 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="90a4-5a63-513c-8591" name="DEITY" hidden="false" targetId="1c6b-947a-abf8-be3b" primary="true"/>
+        <categoryLink id="73b0-0ea1-5de2-8ddb" name="CHARACTER" hidden="false" targetId="10c5-1200-a42c-d518" primary="false"/>
+        <categoryLink id="4849-f954-00cb-66b5" name="LEGENDARY" hidden="false" targetId="bc39-4e44-a622-2b06" primary="false"/>
+        <categoryLink id="5bb9-9f1f-3935-5326" name="MAGE" hidden="false" targetId="8c3e-da64-9b93-a9e6" primary="false"/>
+        <categoryLink id="4d13-ca29-ea3d-6700" name="TUATHA" hidden="false" targetId="107c-31d1-7f15-7de7" primary="false"/>
+        <categoryLink id="b96a-8c6e-8d6e-4bc3" name="STRIDER" hidden="false" targetId="2ede-3137-1136-4408" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4e6d-f338-b04d-cb7d" name="Rule References" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb24-2715-df36-0516" type="max"/>
+          </constraints>
+          <infoGroups>
+            <infoGroup id="d783-abc6-3663-df47" name="Shared Abilities" hidden="false">
+              <infoLinks>
+                <infoLink id="b1b1-6164-0e76-0543" name="Godly Form X+" hidden="false" targetId="b82d-6115-66ae-e91a" type="profile"/>
+                <infoLink id="5c89-b042-47ef-1d98" name="Spite of the Aes Sídhe (Status Ability)" hidden="false" targetId="ab0f-ee1b-e250-59b4" type="profile"/>
+                <infoLink id="0712-4be7-2999-21bd" name="(W) Brutal" hidden="false" targetId="fcab-f65a-c13e-9f93" type="profile"/>
+                <infoLink id="2a73-c12a-c0c7-16bc" name="(W) Devastating" hidden="false" targetId="92b9-fbed-489b-a6a8" type="profile"/>
+                <infoLink id="a9e6-b69c-f25f-0c0f" name="(W) Enchanted X" hidden="false" targetId="76f3-6c97-4734-c8c6" type="profile"/>
+                <infoLink id="5772-f0e1-c527-8cf1" name="(W) Pierce X" hidden="false" targetId="a4de-48a9-b361-4a0b" type="profile"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="09d3-791d-d878-7528" name="Warlord" hidden="false" collective="false" import="true" targetId="d87d-0514-aebf-61a3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="377b-114a-bf2c-17cf" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b58-7448-1fda-46b5" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ec6d-5acd-1c49-2b60" name="Fated Battle Cry (Aura)" hidden="false" typeId="92ef-c043-1c14-70b5" typeName="Devotion Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="149d-d3dd-787d-169c">Enemy Formations wholly within 18” of this Formation must subtract 1 from Hit rolls, Wound rolls and Will rolls.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="1200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="02cf-c640-9213-1616" name="Donn" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8ab-28f4-1ae7-630c" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6dd1-a807-6bdf-23a6" name="Donn" hidden="false" typeId="887c-f433-52eb-6983" typeName="Formation Statblock">
+          <characteristics>
+            <characteristic name="Move" typeId="2cf7-cf06-d23e-9b8a">10&quot;</characteristic>
+            <characteristic name="Dash" typeId="6cd7-c82b-d03e-dbbd">6&quot;</characteristic>
+            <characteristic name="Health" typeId="c61c-0386-7ff1-cfa0">32</characteristic>
+            <characteristic name="Will" typeId="3e46-9fc8-86f6-1bc5">6+</characteristic>
+            <characteristic name="Armour" typeId="7fbc-6b2f-f2c0-ff9f">3+</characteristic>
+            <characteristic name="Durability" typeId="eb56-7a27-3e4a-8e75">3+</characteristic>
+            <characteristic name="Actions" typeId="708a-ef06-1356-6d3e">3</characteristic>
+            <characteristic name="Focus" typeId="8a1d-2d56-bcfc-a3c2">6</characteristic>
+            <characteristic name="Command" typeId="0dfc-1b4c-c35a-8a03">12</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoGroups>
+        <infoGroup id="2053-2f0a-9be1-e6f7" name="Abilities" hidden="false">
+          <profiles>
+            <profile id="06ad-6816-e1a3-9ac5" name="Ancestor of the Gaels (Aura)" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">Friendly Formations within 12” of this ability ignore any negative modifiers to Hit and Wound rolls when making attacks as part of the Fight for the Clans ability.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="13e0-335b-c00b-0157" name="Sliocht na Marbh " hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">When this Formation makes melee attacks with its Sliocht na Marbh weapon while performing an Action, select either the Thrust or Sweep profile to make all of those attacks with.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="aec3-bc77-4e03-2461" name="Call from Tech Duinn" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">At the start of the round, choose a non-LEGENDARY Formation from your army that has been completely destroyed. You may spend up to 5SP and return that Formation to the field anywhere on the field within 6” of a table edge and more than 9” away from any enemy Formations. A Formation returned to the field this way is returned containing X models where X is the number of SP spent on this ability. Each Formation can only be returned to the field by this ability once per game.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0038-b93e-b387-c880" name="Tuatha Dé Dannan" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">This Formation has the Godly Form 3+ and Spite of the Aes Sídhe abilities.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="51a5-adfd-ec1f-8d5d" name="Heroics" hidden="false">
+          <profiles>
+            <profile id="ed69-363e-9377-cb95" name="The Red God " hidden="false" typeId="7e00-97fa-e372-de69" typeName="Heroic">
+              <characteristics>
+                <characteristic name="Focus" typeId="80e7-2ca3-3541-ee59">2</characteristic>
+                <characteristic name="Description" typeId="09a5-97e1-8bdf-b2b4">Use this Heroic at the start of the Activation Step. Until the end of the Step, improve the Rend Characteristic of this Formation’s weapons by 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="3388-2439-1cfe-e27a" name="Magic" hidden="false">
+          <profiles>
+            <profile id="7fcf-8af8-65be-e3f4" name="MAGE LEVEL" hidden="false" typeId="7c2f-d43d-124c-b04f" typeName="MAGE">
+              <characteristics>
+                <characteristic name="Mage Level" typeId="973b-1c4f-57f3-d4ec">3</characteristic>
+                <characteristic name="Mana" typeId="ead1-359a-f442-7dc5">30</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="62b0-7148-8d83-de27" name="The Realm Between " hidden="false" typeId="c0fb-45e8-4c55-1a93" typeName="Amplified Magic Spell">
+              <characteristics>
+                <characteristic name="Casting Value" typeId="027b-4299-3d33-9ed5">11+</characteristic>
+                <characteristic name="Mana Cost" typeId="5936-9ff2-4078-6b0a">10</characteristic>
+                <characteristic name="Description" typeId="2c83-3837-6611-052d">Select an enemy non-LEGENDARY Formation within 12” of this Formation. That Formation is sent to the Realm Between. Until the end of the round, whenever the selected Formation cannot be chosen to Activate as your opponent’s next Activation.</characteristic>
+                <characteristic name="Amplified Cost" typeId="b763-de80-6550-08ce">1</characteristic>
+                <characteristic name="Amplified Effect" typeId="cb5b-84dc-988d-68e1">Increase the range of this Magic Spell to 18”.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="4ad7-c117-cfb9-0d2e" name="Weapons" hidden="false">
+          <profiles>
+            <profile id="3427-8e19-51cf-5716" name="Sliocht na Marbh (Thrust)" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">3&quot;</characteristic>
+                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">2</characteristic>
+                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">2</characteristic>
+                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">5</characteristic>
+                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Hatred-CAVALRY 3+,  Ethereal 3</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0cb8-bc3b-6c1d-5817" name="Sliocht na Marbh (Sweep)" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">3&quot;</characteristic>
+                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">6</characteristic>
+                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">2</characteristic>
+                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">2</characteristic>
+                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Hatred-CAVALRY 3+,  Ethereal 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="1590-7083-939c-5240" name="CHARACTER" hidden="false" targetId="10c5-1200-a42c-d518" primary="false"/>
+        <categoryLink id="d38c-56cc-f535-622b" name="New CategoryLink" hidden="false" targetId="1c6b-947a-abf8-be3b" primary="true"/>
+        <categoryLink id="3f4e-41df-60f6-fa3a" name="LEGENDARY" hidden="false" targetId="bc39-4e44-a622-2b06" primary="false"/>
+        <categoryLink id="bff9-c08e-91f9-fa8e" name="MAGE" hidden="false" targetId="8c3e-da64-9b93-a9e6" primary="false"/>
+        <categoryLink id="fed1-1fc7-cbf5-ba6c" name="STRIDER" hidden="false" targetId="2ede-3137-1136-4408" primary="false"/>
+        <categoryLink id="c98d-e9c7-b3ed-a553" name="TUATHA" hidden="false" targetId="107c-31d1-7f15-7de7" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3864-682b-bbd3-ed8f" name="Rule References" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8464-6f42-e3aa-16dc" type="max"/>
+          </constraints>
+          <infoGroups>
+            <infoGroup id="e4d0-7544-12e6-7f8d" name="Shared Abilities" hidden="false">
+              <infoLinks>
+                <infoLink id="10e7-c013-b63c-383f" name="(W) Ethereal X" hidden="false" targetId="0fd5-da19-9133-2f3e" type="profile"/>
+                <infoLink id="15d1-b6ed-a995-71e8" name="(W) Hatred-TAG X+" hidden="false" targetId="b058-96e7-2996-6e41" type="profile"/>
+                <infoLink id="e843-15e7-7ee7-76ec" name="Godly Form X+" hidden="false" targetId="b82d-6115-66ae-e91a" type="profile"/>
+                <infoLink id="9271-dfdf-9bdf-c0a9" name="Spite of the Aes Sídhe (Status Ability)" hidden="false" targetId="ab0f-ee1b-e250-59b4" type="profile"/>
+                <infoLink id="7b66-5c6e-cb81-9e41" name="Fight for the Clans" hidden="false" targetId="b6e1-ef52-ccbd-d654" type="profile"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <costs>
+            <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="0b40-9c50-6568-2b84" name="Warlord" hidden="false" collective="false" import="true" targetId="d87d-0514-aebf-61a3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfdd-9c0e-145c-8c11" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37e8-f47a-94c1-420d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="67d5-07e6-4608-327c" name="Rage of the Bear" hidden="false" typeId="92ef-c043-1c14-70b5" typeName="Devotion Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="149d-d3dd-787d-169c">Friendly CHILDREN OF ÉRIU Formations within 12” of this Formation may re-roll Hit rolls of 1 and add 1 to Hit rolls.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="1200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4bfb-eb90-bd5e-5fb8" name="Cú Chulainn" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b589-17ac-a610-d52e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="13a1-810c-eee3-ad58" name="Cú Chulainn" hidden="false" typeId="887c-f433-52eb-6983" typeName="Formation Statblock">
+          <characteristics>
+            <characteristic name="Move" typeId="2cf7-cf06-d23e-9b8a">6&quot;</characteristic>
+            <characteristic name="Dash" typeId="6cd7-c82b-d03e-dbbd">4&quot;</characteristic>
+            <characteristic name="Health" typeId="c61c-0386-7ff1-cfa0">15</characteristic>
+            <characteristic name="Will" typeId="3e46-9fc8-86f6-1bc5">6+</characteristic>
+            <characteristic name="Armour" typeId="7fbc-6b2f-f2c0-ff9f">2+</characteristic>
+            <characteristic name="Durability" typeId="eb56-7a27-3e4a-8e75">-</characteristic>
+            <characteristic name="Actions" typeId="708a-ef06-1356-6d3e">2</characteristic>
+            <characteristic name="Focus" typeId="8a1d-2d56-bcfc-a3c2">5</characteristic>
+            <characteristic name="Command" typeId="0dfc-1b4c-c35a-8a03">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoGroups>
+        <infoGroup id="d206-7307-068e-1518" name="Abilites" hidden="false">
+          <profiles>
+            <profile id="92d5-e530-4376-4bcf" name="Warrior of Ulster" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">This Formation has the Fight for the Clans ability.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="9e23-47fa-4e13-0c5e" name="Trained by Scáthatch" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">Each time this Formation makes an attack, if the target of that attack is a CHARACTER, you may re-roll the Wound roll.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1407-7948-fe13-0699" name="Warp-Spasms" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">Each time this Formation destroys a When this Formation completes the charge portion of a Charge-Fight Action, you may choose to unleash a Warp Spasm, if you do, this Formation suffers 2 Ethereal Damage but immediately makes 4 melee Attacks with Gáe Bulg adding the Devastating Ability to the weapon until the end of the Action. If any of these attacks destroy any enemy models, you gain D3SP.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="3427-24d7-ef4f-f43c" name="Heroics" hidden="false">
+          <profiles>
+            <profile id="1623-7f12-377c-9c20" name="Unstoppable Force " hidden="false" typeId="7e00-97fa-e372-de69" typeName="Heroic">
+              <characteristics>
+                <characteristic name="Focus" typeId="80e7-2ca3-3541-ee59">2</characteristic>
+                <characteristic name="Description" typeId="09a5-97e1-8bdf-b2b4">Use this Heroic when this Formation completes the charge portion of a Charge-Fight action. Improve the Rend Characteristic of this Formation’s Gáe Bulg weapon by 1 until the end of the Action.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="4738-81c4-213f-ed33" name="Weapons" hidden="false">
+          <profiles>
+            <profile id="b497-17cd-6e58-bb86" name="Cú’s Sling Stone" hidden="false" typeId="724e-177d-72f6-2e34" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="a043-4a74-9e04-818d">12&quot;</characteristic>
+                <characteristic name="Attacks" typeId="e7dc-7248-6581-6a5e">D6</characteristic>
+                <characteristic name="Hit" typeId="617c-ae43-0c5f-fc05">3+</characteristic>
+                <characteristic name="Wound" typeId="c9f3-9662-cd72-d446">3+</characteristic>
+                <characteristic name="Rend" typeId="2325-6660-26ab-e356">-</characteristic>
+                <characteristic name="Damage" typeId="e5a5-8c0b-c8ce-3e1d">1</characteristic>
+                <characteristic name="Abilities" typeId="0dc5-c999-dc75-4574">Critical Wound rolls 5+, Ethereal 1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7211-e236-dc81-e2af" name="Gáe Bulg" hidden="false" typeId="724e-177d-72f6-2e34" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="a043-4a74-9e04-818d">18&quot;</characteristic>
+                <characteristic name="Attacks" typeId="e7dc-7248-6581-6a5e">1</characteristic>
+                <characteristic name="Hit" typeId="617c-ae43-0c5f-fc05">3+</characteristic>
+                <characteristic name="Wound" typeId="c9f3-9662-cd72-d446">3+</characteristic>
+                <characteristic name="Rend" typeId="2325-6660-26ab-e356">2</characteristic>
+                <characteristic name="Damage" typeId="e5a5-8c0b-c8ce-3e1d">3</characteristic>
+                <characteristic name="Abilities" typeId="0dc5-c999-dc75-4574">Critical Wound rolls 5+, Ethereal 2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="120d-a3ec-df8a-a53f" name="Gáe Bulg" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">3!</characteristic>
+                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">5</characteristic>
+                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">2+</characteristic>
+                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">2</characteristic>
+                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">3</characteristic>
+                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Critical Wound rolls 5+, Ethereal 2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="81a2-478a-5175-b898" name="Cú’s Sword" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">1&quot;</characteristic>
+                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">2</characteristic>
+                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">2</characteristic>
+                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">1</characteristic>
+                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Critical Wound rolls 5+, Ethereal 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+      </infoGroups>
+      <selectionEntries>
+        <selectionEntry id="f38c-86c5-8de6-2d99" name="Rules Reference" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35a0-acf5-650d-5a4f" type="max"/>
+          </constraints>
+          <infoGroups>
+            <infoGroup id="39a2-ddf9-dc46-4840" name="Shared Abilities" hidden="false">
+              <infoLinks>
+                <infoLink id="3304-9421-cbca-c6a1" name="Fight for the Clans" hidden="true" targetId="b6e1-ef52-ccbd-d654" type="profile"/>
+                <infoLink id="e9e1-ac7f-2528-b740" name="(W) Ethereal X" hidden="false" targetId="0fd5-da19-9133-2f3e" type="profile"/>
+                <infoLink id="0c04-56f6-a085-4a17" name="(W) Critical [Roll] X+" hidden="false" targetId="4a1f-2060-9847-a346" type="profile"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <costs>
+            <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="aafc-3176-0bd5-6406" name="Warlord" hidden="false" collective="false" import="true" targetId="d87d-0514-aebf-61a3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d4c-b350-556c-0fd7" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbff-59c4-de98-d44d" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="400.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="16ed-7595-67e9-6adc" name="Fionn mac Cumhaill" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bd5-3fa5-bcb2-5a8f" type="max"/>
+      </constraints>
+      <infoGroups>
+        <infoGroup id="d7b3-160a-bcfc-5974" name="Abilities" hidden="false">
+          <profiles>
+            <profile id="8c4c-c3d5-f4c6-eb11" name="Member of the Fianna" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">This Formation has the Fight for the Clans ability.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="d394-eccb-95bf-9c0a" name="The Raven and the Survivor" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">While this Formation contains a Bran and/or Sceólang model, this Formation has the MONSTER Tag and the Agile ability.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="9c3e-a9ce-3af4-bc7a" name="Thumb of Knowledge" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">This Formation may re-roll Hit rolls of 1.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="edcb-b1c4-c948-f3f5" name="Slayer of Áillen" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">Once per game, when this Formation is selected to Activate in the Activation Step, you may say that this Formation will hunt a Deity. If you choose to do so then, until the end of that Action, weapons that this Formation is equipped with gain the Hatred-DEITY 4+ and DEITY-Bane D3 abilities.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="da42-20c3-0856-073f" name="Heroics" hidden="false">
+          <profiles>
+            <profile id="eccc-bea1-4dfe-ceb3" name="Awaken Once More " hidden="false" typeId="7e00-97fa-e372-de69" typeName="Heroic">
+              <characteristics>
+                <characteristic name="Focus" typeId="80e7-2ca3-3541-ee59">5</characteristic>
+                <characteristic name="Description" typeId="09a5-97e1-8bdf-b2b4">Use this Heroic the first time this Formation is destroyed. Roll a D6, on the result of 2+, return this Formation to the field wholly within 6” of the table edge and more than 9” from any enemy models. The Bran and Sceólang models are returned with their full Health remaining, but the Fionn mac Cumhaill model is returned to the field with 6 Health remaining.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+      </infoGroups>
+      <selectionEntries>
+        <selectionEntry id="95ff-7736-12ab-b745" name="Fionn mac Cumhaill" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6c9-cf58-af28-9fca" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0455-efa7-df59-7e7f" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="8bc5-883a-fe64-76f3" name="Fionn mac Cumhaill" hidden="false" typeId="887c-f433-52eb-6983" typeName="Formation Statblock">
+              <characteristics>
+                <characteristic name="Move" typeId="2cf7-cf06-d23e-9b8a">6&quot;</characteristic>
+                <characteristic name="Dash" typeId="6cd7-c82b-d03e-dbbd">4&quot;</characteristic>
+                <characteristic name="Health" typeId="c61c-0386-7ff1-cfa0">12</characteristic>
+                <characteristic name="Will" typeId="3e46-9fc8-86f6-1bc5">6+</characteristic>
+                <characteristic name="Armour" typeId="7fbc-6b2f-f2c0-ff9f">2+</characteristic>
+                <characteristic name="Durability" typeId="eb56-7a27-3e4a-8e75">-</characteristic>
+                <characteristic name="Actions" typeId="708a-ef06-1356-6d3e">2</characteristic>
+                <characteristic name="Focus" typeId="8a1d-2d56-bcfc-a3c2">5</characteristic>
+                <characteristic name="Command" typeId="0dfc-1b4c-c35a-8a03">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="0949-8e4d-ab03-af34" name="Weapons" hidden="false">
+              <profiles>
+                <profile id="f0e1-6fe3-67c5-2351" name="Birga" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">3&quot;</characteristic>
+                    <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">4</characteristic>
+                    <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+                    <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+                    <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">2</characteristic>
+                    <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">D3+1</characteristic>
+                    <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Ethereal 2, Hatred-MONSTER 3+
+</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="eaf0-9c0c-3ecc-7295" name="Mac an Luinn" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">1&quot;</characteristic>
+                    <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">2</characteristic>
+                    <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+                    <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+                    <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">1</characteristic>
+                    <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">2</characteristic>
+                    <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Ethereal 1, Hatred-MONSTER 3+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </infoGroup>
+          </infoGroups>
+          <entryLinks>
+            <entryLink id="7deb-e7f6-d791-e09d" name="Warlord" hidden="false" collective="false" import="true" targetId="d87d-0514-aebf-61a3" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6091-0037-23cd-f271" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8b4-b4c3-5cb4-05e9" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry id="6358-2965-caee-bc31" name="Bran" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d30-67c1-08fa-6d1c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e272-2a3e-f7df-1dff" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="55b8-48bb-11d0-7a7d" name="Bran" hidden="false" typeId="887c-f433-52eb-6983" typeName="Formation Statblock">
+              <characteristics>
+                <characteristic name="Move" typeId="2cf7-cf06-d23e-9b8a">6&quot;</characteristic>
+                <characteristic name="Dash" typeId="6cd7-c82b-d03e-dbbd">4&quot;</characteristic>
+                <characteristic name="Health" typeId="c61c-0386-7ff1-cfa0">3</characteristic>
+                <characteristic name="Will" typeId="3e46-9fc8-86f6-1bc5">6+</characteristic>
+                <characteristic name="Armour" typeId="7fbc-6b2f-f2c0-ff9f">3+</characteristic>
+                <characteristic name="Durability" typeId="eb56-7a27-3e4a-8e75">6+</characteristic>
+                <characteristic name="Actions" typeId="708a-ef06-1356-6d3e">2</characteristic>
+                <characteristic name="Focus" typeId="8a1d-2d56-bcfc-a3c2">5</characteristic>
+                <characteristic name="Command" typeId="0dfc-1b4c-c35a-8a03">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="a250-e12d-a156-9f39" name="Weapons" hidden="false">
+              <profiles>
+                <profile id="0fc7-7627-5f87-9490" name="Harsh Bite" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">1&quot;</characteristic>
+                    <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">2</characteristic>
+                    <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+                    <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+                    <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">1</characteristic>
+                    <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">2</characteristic>
+                    <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Devastating, Hatred-MONSTER 3+</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="e694-26b9-39fb-9133" name="Blue Claws" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">1&quot;</characteristic>
+                    <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">4</characteristic>
+                    <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+                    <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+                    <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">-</characteristic>
+                    <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">1</characteristic>
+                    <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Ethereal 1, Hatred-MONSTER 3+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </infoGroup>
+          </infoGroups>
+        </selectionEntry>
+        <selectionEntry id="ce7f-14dc-5b0d-d119" name="Sceólang" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a693-a243-02aa-56d2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5a9-06b4-d9c6-147c" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="3060-9fbd-ffbc-c140" name="Sceólang" hidden="false" typeId="887c-f433-52eb-6983" typeName="Formation Statblock">
+              <characteristics>
+                <characteristic name="Move" typeId="2cf7-cf06-d23e-9b8a">6&quot;</characteristic>
+                <characteristic name="Dash" typeId="6cd7-c82b-d03e-dbbd">4&quot;</characteristic>
+                <characteristic name="Health" typeId="c61c-0386-7ff1-cfa0">3</characteristic>
+                <characteristic name="Will" typeId="3e46-9fc8-86f6-1bc5">6+</characteristic>
+                <characteristic name="Armour" typeId="7fbc-6b2f-f2c0-ff9f">3+</characteristic>
+                <characteristic name="Durability" typeId="eb56-7a27-3e4a-8e75">6+</characteristic>
+                <characteristic name="Actions" typeId="708a-ef06-1356-6d3e">2</characteristic>
+                <characteristic name="Focus" typeId="8a1d-2d56-bcfc-a3c2">5</characteristic>
+                <characteristic name="Command" typeId="0dfc-1b4c-c35a-8a03">3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoGroups>
+            <infoGroup id="a768-ec49-e099-8866" name="Weapons" hidden="false">
+              <profiles>
+                <profile id="09f5-dc54-7c90-d3c5" name="Blue Claws" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">1&quot;</characteristic>
+                    <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">4</characteristic>
+                    <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+                    <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+                    <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">-</characteristic>
+                    <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">1</characteristic>
+                    <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Ethereal 1, Hatred-MONSTER 3+</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="01f3-42ea-7177-1761" name="Harsh Bite" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">1&quot;</characteristic>
+                    <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">2</characteristic>
+                    <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+                    <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+                    <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">1</characteristic>
+                    <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">2</characteristic>
+                    <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Devastating, Hatred-MONSTER 3+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </infoGroup>
+          </infoGroups>
+        </selectionEntry>
+        <selectionEntry id="e851-2427-620f-eee9" name="Rules References" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1e4-7586-6d4c-3458" type="max"/>
+          </constraints>
+          <infoGroups>
+            <infoGroup id="2aa6-023a-81e0-90fa" name="Shared Abilities" hidden="false">
+              <infoLinks>
+                <infoLink id="0d27-ea45-1115-6fca" name="Fight for the Clans" hidden="true" targetId="b6e1-ef52-ccbd-d654" type="profile"/>
+                <infoLink id="5f07-d20d-f66e-65bb" name="(W) Ethereal X" hidden="false" targetId="0fd5-da19-9133-2f3e" type="profile"/>
+                <infoLink id="83f1-b740-08ba-d8d9" name="(W) Devastating" hidden="false" targetId="92b9-fbed-489b-a6a8" type="profile"/>
+                <infoLink id="a848-c179-ab0a-9374" name="(W) Hatred-TAG X+" hidden="false" targetId="b058-96e7-2996-6e41" type="profile"/>
+                <infoLink id="8a7d-2e3f-00bc-c232" name="Agile" hidden="false" targetId="e4f4-b35c-23a9-e154" type="profile"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <costs>
+            <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="600.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3c74-a4e8-46b8-812f" name="Ard-Rí" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a0b9-be73-7fd5-549b" name="Ard-Rí" hidden="false" typeId="887c-f433-52eb-6983" typeName="Formation Statblock">
+          <characteristics>
+            <characteristic name="Move" typeId="2cf7-cf06-d23e-9b8a">6&quot;</characteristic>
+            <characteristic name="Dash" typeId="6cd7-c82b-d03e-dbbd">4&quot;</characteristic>
+            <characteristic name="Health" typeId="c61c-0386-7ff1-cfa0">8</characteristic>
+            <characteristic name="Will" typeId="3e46-9fc8-86f6-1bc5">7+</characteristic>
+            <characteristic name="Armour" typeId="7fbc-6b2f-f2c0-ff9f">3+</characteristic>
+            <characteristic name="Durability" typeId="eb56-7a27-3e4a-8e75">6+</characteristic>
+            <characteristic name="Actions" typeId="708a-ef06-1356-6d3e">2</characteristic>
+            <characteristic name="Focus" typeId="8a1d-2d56-bcfc-a3c2">2</characteristic>
+            <characteristic name="Command" typeId="0dfc-1b4c-c35a-8a03">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3ab6-e464-fecc-9154" name="Skenes" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">1&quot;</characteristic>
+            <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">3</characteristic>
+            <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+            <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">2+</characteristic>
+            <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">2</characteristic>
+            <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">2</characteristic>
+            <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Pierce 2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoGroups>
+        <infoGroup id="4ab0-4a27-47d7-1e47" name="Abilities" hidden="false">
+          <profiles>
+            <profile id="b40a-3e16-83b5-47a6" name="Warrior of Ériu" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">This Formation has the Fight for the Clans ability.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="592e-93f0-53d5-472b" name="High King (Aura)" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">Friendly non-DEITY Formations within 6” of this Formation may re-roll Charge rolls.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1a18-0743-44be-be10" name="Inspire Kin" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">At the start of the round, select a friendly non-TUATHA, non-CONSTRUCT Formation within 6” of this Formation. Until the end of the round, add 1 to the Attacks Characteristic of weapons that the selected Formation is equipped with. A Formation may not be affected by this ability more than once per round.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="5b00-48a0-5a96-5513" name="Heroics" hidden="false">
+          <profiles>
+            <profile id="7490-97ac-cdf8-4641" name="For Ériu " hidden="false" typeId="7e00-97fa-e372-de69" typeName="Heroic">
+              <characteristics>
+                <characteristic name="Focus" typeId="80e7-2ca3-3541-ee59">1</characteristic>
+                <characteristic name="Description" typeId="09a5-97e1-8bdf-b2b4">Use this Heroic when at the start of the Activation Step. Until the end of the round, friendly Formations within 6” of this Formation may add 1 to Charge rolls.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+      </infoGroups>
+      <selectionEntries>
+        <selectionEntry id="e165-4dc6-72be-ef98" name="Rules Reference" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ad1-2812-fba7-bff1" type="max"/>
+          </constraints>
+          <infoGroups>
+            <infoGroup id="9791-7c26-ff2d-7c45" name="Shared Abilities" hidden="false">
+              <infoLinks>
+                <infoLink id="a404-2836-9be4-ded6" name="Fight for the Clans" hidden="true" targetId="b6e1-ef52-ccbd-d654" type="profile"/>
+                <infoLink id="2413-061d-feae-5a58" name="(W) Pierce X" hidden="false" targetId="a4de-48a9-b361-4a0b" type="profile"/>
+                <infoLink id="15ea-68f3-3675-aea7" name="(W) TAG-Bane X" hidden="false" targetId="dc3b-27bf-cdf3-7aa3" type="profile"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <costs>
+            <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c815-36d0-bca9-1de4" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="f4ba-b7de-f653-0181">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5483-3dcb-8c40-43ad" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0602-5d1f-cf13-1858" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f4ba-b7de-f653-0181" name="Long Sword" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b0d-85b6-bdae-7c49" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="bf63-17da-4ccb-b75a" name="Long Sword" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">2&quot;</characteristic>
+                    <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">3</characteristic>
+                    <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+                    <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+                    <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">3</characteristic>
+                    <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">3</characteristic>
+                    <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="d15c-52ce-6fea-5f1e" name="Spear" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d77e-d636-96a2-5ee2" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="8ad8-eb9a-657c-caf6" name="Spear" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">3&quot;</characteristic>
+                    <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">6</characteristic>
+                    <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+                    <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+                    <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">2</characteristic>
+                    <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">1</characteristic>
+                    <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">CAVALRY-Bane 1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1cdc-30b7-89a1-62ee" name="Warlord" hidden="false" collective="false" import="true" targetId="d87d-0514-aebf-61a3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed27-7e6b-b909-4e66" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aedf-b08d-d376-6378" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="250.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
