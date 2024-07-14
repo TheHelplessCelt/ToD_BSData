@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9730-4bb3-c061-4543" name="Children of Ériu" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="4dab-761a-96dd-b8ca" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9730-4bb3-c061-4543" name="Children of Ériu" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="4dab-761a-96dd-b8ca" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="c0fb-45e8-4c55-1a93" name="Amplified Magic Spell">
       <characteristicTypes>
@@ -53,6 +53,11 @@
       </categoryLinks>
       <costs>
         <cost name="Points" typeId="840e-4e1f-ca87-b667" value="1500.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="b2ae-c42e-28e0-0516" name="Brigid" hidden="false" collective="false" import="true" targetId="a88e-eef8-83ec-ba7c" type="selectionEntry">
+      <costs>
+        <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="1400.0"/>
       </costs>
     </entryLink>
   </entryLinks>
@@ -124,7 +129,7 @@ Some Formations in your army may also have abilities that require you to spend S
         <categoryLink id="1467-12c4-37ab-8dcb" name="New CategoryLink" hidden="false" targetId="8e72-4f3d-bfb2-b91e" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
+        <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6e56-6ee6-e068-d7c6" name="Datacard Abilities" hidden="false" collective="false" import="true" type="upgrade">
@@ -139,10 +144,13 @@ Some Formations in your army may also have abilities that require you to spend S
         <categoryLink id="538f-a620-739b-dd4d" name="New CategoryLink" hidden="false" targetId="8e72-4f3d-bfb2-b91e" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
+        <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b93c-d50d-f62b-2991" name="Subfaction" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2267-5b78-faeb-5907" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="924d-f20f-0dec-d4cb" name="New CategoryLink" hidden="false" targetId="8e72-4f3d-bfb2-b91e" primary="true"/>
       </categoryLinks>
@@ -150,12 +158,12 @@ Some Formations in your army may also have abilities that require you to spend S
         <entryLink id="3feb-c23b-8a0b-06af" name="Subfaction Group" hidden="false" collective="false" import="true" targetId="51da-0503-6b3a-4328" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
+        <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2768-6a9e-db0b-7e6e" name="Lugh" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="598b-b3d3-941c-99d4" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="598b-b3d3-941c-99d4" type="max"/>
       </constraints>
       <profiles>
         <profile id="7851-bda0-218b-305a" name="Lugh" hidden="false" typeId="887c-f433-52eb-6983" typeName="Formation Statblock">
@@ -289,18 +297,6 @@ Some Formations in your army may also have abilities that require you to spend S
                 <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">Each time this Formation destroys an enemy LEGENDARY, DEITY or MONSTER Formation, select a friendly non-LEGENDARY Formation wholly within 18” of this Formation. Until the end of the round, add 1 to the Attacks Characteristic of weapons the selected Formation is equipped with. Each Formation can only be targeted by this ability once per round.</characteristic>
               </characteristics>
             </profile>
-            <profile id="4a96-945b-ea40-0773" name="King, Warrior, Master" hidden="true" typeId="92ef-c043-1c14-70b5" typeName="Devotion Ability">
-              <modifiers>
-                <modifier type="set" field="hidden" value="false">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="b3d8-4f8e-cddf-eff9" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <characteristics>
-                <characteristic name="Description" typeId="149d-d3dd-787d-169c">Each time this Formation is selected to Activate in the Activation Step, select a friendly non-LEGENDARY non-CHARACTER Formation within 12” of this Formation. The Selected Formation may Activate immediately after this Formation.</characteristic>
-              </characteristics>
-            </profile>
           </profiles>
         </infoGroup>
         <infoGroup id="b27c-dbed-e4c8-72b1" name="Heroics" hidden="false">
@@ -313,17 +309,6 @@ Some Formations in your army may also have abilities that require you to spend S
             </profile>
           </profiles>
         </infoGroup>
-        <infoGroup id="faf4-3ef9-ad5a-5759" name="Shared Abilities" hidden="false">
-          <infoLinks>
-            <infoLink id="3d76-7602-b23e-7a76" name="(W) Brutal" hidden="false" targetId="fcab-f65a-c13e-9f93" type="profile"/>
-            <infoLink id="b509-1504-eb3c-ea0d" name="(W) Devastating" hidden="false" targetId="92b9-fbed-489b-a6a8" type="profile"/>
-            <infoLink id="9849-9e86-af91-b5ec" name="(W) Fragmenting X" hidden="false" targetId="5f9d-4d76-25e5-7835" type="profile"/>
-            <infoLink id="3e22-7543-dc89-fbef" name="(W) Ethereal X" hidden="false" targetId="0fd5-da19-9133-2f3e" type="profile"/>
-            <infoLink id="6407-fadf-6910-09be" name="(W) Enchanted X" hidden="false" targetId="76f3-6c97-4734-c8c6" type="profile"/>
-            <infoLink id="5e56-baeb-256f-ff0c" name="Godly Form X+" hidden="false" targetId="b82d-6115-66ae-e91a" type="profile"/>
-            <infoLink id="844c-3ef0-4213-76c1" name="Spite of the Aes Sídhe (Status Ability)" hidden="false" targetId="ab0f-ee1b-e250-59b4" type="profile"/>
-          </infoLinks>
-        </infoGroup>
       </infoGroups>
       <categoryLinks>
         <categoryLink id="c051-2c5b-aa21-2374" name="LEGENDARY" hidden="false" targetId="bc39-4e44-a622-2b06" primary="false"/>
@@ -334,15 +319,213 @@ Some Formations in your army may also have abilities that require you to spend S
         <categoryLink id="aa14-091e-179c-6452" name="MYTH CYCLE" hidden="false" targetId="0e7d-14af-87ae-4be0" primary="false"/>
         <categoryLink id="d8ea-386e-55ff-0bd8" name="TUATHA" hidden="false" targetId="107c-31d1-7f15-7de7" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6f07-10f8-9d0e-5136" name="Rule References" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aba4-255e-89f2-a53f" type="max"/>
+          </constraints>
+          <infoGroups>
+            <infoGroup id="16db-27e6-fca8-ac00" name="Shared Abilities" hidden="false">
+              <infoLinks>
+                <infoLink id="6d83-d953-d25a-7665" name="(W) Brutal" hidden="false" targetId="fcab-f65a-c13e-9f93" type="profile"/>
+                <infoLink id="bd54-2f8b-5752-b267" name="(W) Devastating" hidden="false" targetId="92b9-fbed-489b-a6a8" type="profile"/>
+                <infoLink id="538e-f637-6d44-1ac7" name="(W) Fragmenting X" hidden="false" targetId="5f9d-4d76-25e5-7835" type="profile"/>
+                <infoLink id="4dc3-f3d8-d3fb-7030" name="(W) Ethereal X" hidden="false" targetId="0fd5-da19-9133-2f3e" type="profile"/>
+                <infoLink id="9540-1012-47c8-b8b4" name="(W) Enchanted X" hidden="false" targetId="76f3-6c97-4734-c8c6" type="profile"/>
+                <infoLink id="bab8-0334-18f8-7041" name="Godly Form X+" hidden="false" targetId="b82d-6115-66ae-e91a" type="profile"/>
+                <infoLink id="9b86-69bf-efe8-fed6" name="Spite of the Aes Sídhe (Status Ability)" hidden="false" targetId="ab0f-ee1b-e250-59b4" type="profile"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <costs>
+            <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
         <entryLink id="b3d8-4f8e-cddf-eff9" name="Warlord" hidden="false" collective="false" import="true" targetId="d87d-0514-aebf-61a3" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93fb-fa4a-13ff-17a7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7a6-e249-4af6-144c" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3db1-7a02-fd22-da2d" type="max"/>
           </constraints>
+          <profiles>
+            <profile id="f1dd-7bf8-d966-5e6c" name="King, Warrior, Master" hidden="false" typeId="92ef-c043-1c14-70b5" typeName="Devotion Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="149d-d3dd-787d-169c">Each time this Formation is selected to Activate in the Activation Step, select a friendly non-LEGENDARY non-CHARACTER Formation within 12” of this Formation. The Selected Formation may Activate immediately after this Formation.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
+        <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="1500.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a88e-eef8-83ec-ba7c" name="Brigid" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22de-8560-d622-586a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="376a-6183-6541-9498" name="Brigid" hidden="false" typeId="887c-f433-52eb-6983" typeName="Formation Statblock">
+          <characteristics>
+            <characteristic name="Move" typeId="2cf7-cf06-d23e-9b8a">10&quot;</characteristic>
+            <characteristic name="Dash" typeId="6cd7-c82b-d03e-dbbd">6&quot;</characteristic>
+            <characteristic name="Health" typeId="c61c-0386-7ff1-cfa0">32</characteristic>
+            <characteristic name="Will" typeId="3e46-9fc8-86f6-1bc5">6+</characteristic>
+            <characteristic name="Armour" typeId="7fbc-6b2f-f2c0-ff9f">3+</characteristic>
+            <characteristic name="Durability" typeId="eb56-7a27-3e4a-8e75">5+</characteristic>
+            <characteristic name="Actions" typeId="708a-ef06-1356-6d3e">3</characteristic>
+            <characteristic name="Focus" typeId="8a1d-2d56-bcfc-a3c2">6</characteristic>
+            <characteristic name="Command" typeId="0dfc-1b4c-c35a-8a03">8</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoGroups>
+        <infoGroup id="4ecd-07cc-51ec-ad7a" name="Abilities" hidden="false">
+          <profiles>
+            <profile id="a25b-e46a-f53d-0162" name="Casúr Brionnaithe" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">When this Formation makes melee attacks with its Casúr Brionnaithe weapon while performing an Action, select either the Strike or Swing profile to make all of those attacks with.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="2dc6-876c-47dd-14c9" name="Goddess of Smithing" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">At the start of the round, select a friendly non-LEGENDARY Formation within 9” of this Formation. Selected one of the following abilities. Until the end of the round, melee weapons that the selected Formation is equipped with gain the selected ability:
+-	CAVALRY-Bane 2
+-	MONSTER-Bane 2
+-	INFANTRY-Bane 2
+-	DEITY-Bane 2
+-	CONSTUCT-Bane 2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1ee0-20e7-5067-6f36" name="Epithet of The Healer" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">At the start of the round, select a friendly non-LEGENDARY Formation wholly within 18” of this Formation. Until the end of the round, the selected Formation has the Revive D3+3 ability. Until the end of the round, each time this Formation destroys an enemy Formation, you may trigger the selected Formation’s Revive ability twice.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="cd50-8b03-bf74-d192" name="Tuatha Dé Dannan" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">This Formation has the Godly Form 4+ and Spite of the Aes Sídhe abilities.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="55f6-dfbd-ed7d-8c71" name="Heroics" hidden="false">
+          <profiles>
+            <profile id="2a38-315c-f200-335a" name="Epithet of Protection " hidden="false" typeId="7e00-97fa-e372-de69" typeName="Heroic">
+              <characteristics>
+                <characteristic name="Focus" typeId="80e7-2ca3-3541-ee59">3</characteristic>
+                <characteristic name="Description" typeId="09a5-97e1-8bdf-b2b4">Use this Heroic at the start of the Activation Step. Select a non-LEGENDARY friendly Formation wholly within 12” of this Formation. Until the end of the Step, the Formation has a Durability Characteristic of 5+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="8a06-1ece-0261-8567" name="Magic" hidden="false">
+          <profiles>
+            <profile id="8e44-21a6-8999-cbd8" name="MAGE" hidden="false" typeId="7c2f-d43d-124c-b04f" typeName="MAGE">
+              <characteristics>
+                <characteristic name="Mage Level" typeId="973b-1c4f-57f3-d4ec">3</characteristic>
+                <characteristic name="Mana" typeId="ead1-359a-f442-7dc5">30</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="37a8-db5a-c7e2-c984" name="Blessing of the Forge" hidden="false" typeId="c0fb-45e8-4c55-1a93" typeName="Amplified Magic Spell">
+              <characteristics>
+                <characteristic name="Casting Value" typeId="027b-4299-3d33-9ed5">11+</characteristic>
+                <characteristic name="Mana Cost" typeId="5936-9ff2-4078-6b0a">15</characteristic>
+                <characteristic name="Description" typeId="2c83-3837-6611-052d">Select a non-LEGENDARY Formation within 9&quot; of this Formation. Add 1 to the Damage Characteristic of weapons that the selected Formation is equipped with until the end of the round. A Formation may not be targeted by this Magic Spell more than once per round.</characteristic>
+                <characteristic name="Amplified Cost" typeId="b763-de80-6550-08ce">5</characteristic>
+                <characteristic name="Amplified Effect" typeId="cb5b-84dc-988d-68e1">Add an additional 1 to the Damage Characteristic of weapons that the selected Formation is equipped with until the end of the round.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="208e-a739-c881-94f2" name="Weapons" hidden="false">
+          <profiles>
+            <profile id="c980-1d08-3d8c-0a78" name="Pillar of Fire" hidden="false" typeId="724e-177d-72f6-2e34" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="a043-4a74-9e04-818d">12&quot;</characteristic>
+                <characteristic name="Attacks" typeId="e7dc-7248-6581-6a5e">3D6</characteristic>
+                <characteristic name="Hit" typeId="617c-ae43-0c5f-fc05">-</characteristic>
+                <characteristic name="Wound" typeId="c9f3-9662-cd72-d446">3+</characteristic>
+                <characteristic name="Rend" typeId="2325-6660-26ab-e356">1</characteristic>
+                <characteristic name="Damage" typeId="e5a5-8c0b-c8ce-3e1d">1</characteristic>
+                <characteristic name="Abilities" typeId="0dc5-c999-dc75-4574">Auto-Hit, Ethereal 2, Enchanted 15</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="cdf8-07fc-3f65-4a70" name="Casúr Brionnaithe (Strike)" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">2&quot;</characteristic>
+                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">3</characteristic>
+                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">3</characteristic>
+                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">3</characteristic>
+                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Brutal, Concussive D3</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="2f1b-1491-4d00-62b0" name="Casúr Brionnaithe (Swing)" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">2&quot;</characteristic>
+                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">6</characteristic>
+                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">1</characteristic>
+                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">1</characteristic>
+                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Concussive 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="4757-fbb8-2b43-b157" name="CHARACTER" hidden="false" targetId="10c5-1200-a42c-d518" primary="false"/>
+        <categoryLink id="5a3a-6e04-cd8e-95e1" name="New CategoryLink" hidden="false" targetId="1c6b-947a-abf8-be3b" primary="true"/>
+        <categoryLink id="9427-4340-54cd-627f" name="LEGENDARY" hidden="false" targetId="bc39-4e44-a622-2b06" primary="false"/>
+        <categoryLink id="7e8a-ee97-3095-167f" name="MAGE" hidden="false" targetId="8c3e-da64-9b93-a9e6" primary="false"/>
+        <categoryLink id="33b6-50c7-4e99-29ee" name="TUATHA" hidden="false" targetId="107c-31d1-7f15-7de7" primary="false"/>
+        <categoryLink id="a716-a6fc-953a-8c48" name="STRIDER" hidden="false" targetId="2ede-3137-1136-4408" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="bb85-bb35-d74c-bf37" name="Rules References" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba36-85a4-0c4e-da4f" type="max"/>
+          </constraints>
+          <infoGroups>
+            <infoGroup id="d15f-6042-c884-f427" name="Shared Abilities" hidden="false">
+              <infoLinks>
+                <infoLink id="98d6-63ff-3af2-633d" name="(W) Auto-Hit" hidden="true" targetId="2a4d-087a-a767-2c0a" type="profile"/>
+                <infoLink id="95d9-e03c-d8e5-103f" name="(W) Ethereal X" hidden="true" targetId="0fd5-da19-9133-2f3e" type="profile"/>
+                <infoLink id="b8ee-ded5-b6db-6be1" name="(W) Enchanted X" hidden="true" targetId="76f3-6c97-4734-c8c6" type="profile"/>
+                <infoLink id="ade2-5bd7-f4d6-4c1e" name="(W) Brutal" hidden="true" targetId="fcab-f65a-c13e-9f93" type="profile"/>
+                <infoLink id="ab5e-cd9e-d6fd-07e7" name="(W) Concussive X" hidden="true" targetId="5c34-46e6-8d52-a1cb" type="profile"/>
+                <infoLink id="5e97-6374-419c-5db5" name="Godly Form X+" hidden="true" targetId="b82d-6115-66ae-e91a" type="profile"/>
+                <infoLink id="4482-444f-80a9-6153" name="Spite of the Aes Sídhe (Status Ability)" hidden="true" targetId="ab0f-ee1b-e250-59b4" type="profile"/>
+                <infoLink id="b6a2-6b6d-e439-920b" name="Shielded X" hidden="false" targetId="297c-e4a0-4d29-c632" type="profile"/>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+          <costs>
+            <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="7253-9493-e1b8-a647" name="Warlord" hidden="false" collective="false" import="true" targetId="d87d-0514-aebf-61a3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0f7-1a2c-cece-aff0" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a89-68d8-c7d7-418c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="36f3-2242-aa9c-c671" name="Wisdom of the Poet Goddess" hidden="false" typeId="92ef-c043-1c14-70b5" typeName="Devotion Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="149d-d3dd-787d-169c">Friendly CHILDREN OF ÉRIU Formations within 12” of this Formation may re-roll Wound rolls of 1, add 1 to Will rolls and have Shielded 1 ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="1400.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -381,7 +564,7 @@ Some Formations in your army may also have abilities that require you to spend S
             <infoLink id="e0c8-4720-8704-b626" name="(W) TAG-Bane X" hidden="false" targetId="dc3b-27bf-cdf3-7aa3" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
+            <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="201b-1fab-182e-385d" name="King&apos;s Cycle" hidden="false" collective="false" import="true" type="upgrade">
@@ -405,7 +588,7 @@ Some Formations in your army may also have abilities that require you to spend S
             </profile>
           </profiles>
           <costs>
-            <cost name="Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
+            <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2b0d-9190-9f75-d5d6" name="Myth Cycle" hidden="false" collective="false" import="true" type="upgrade">
@@ -429,7 +612,7 @@ Some Formations in your army may also have abilities that require you to spend S
             </profile>
           </profiles>
           <costs>
-            <cost name="Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
+            <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="556d-403b-8ce1-391f" name="Ulster Cycle" hidden="false" collective="false" import="true" type="upgrade">
@@ -456,7 +639,7 @@ Some Formations in your army may also have abilities that require you to spend S
             <infoLink id="691d-805d-c576-11d9" name="Enraged" hidden="false" targetId="38b8-5631-5be2-7a06" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
+            <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
