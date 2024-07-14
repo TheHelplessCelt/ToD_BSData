@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="9730-4bb3-c061-4543" name="Children of Ériu" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="4dab-761a-96dd-b8ca" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profileTypes>
+    <profileType id="c0fb-45e8-4c55-1a93" name="Amplified Magic Spell">
+      <characteristicTypes>
+        <characteristicType id="027b-4299-3d33-9ed5" name="Casting Value"/>
+        <characteristicType id="5936-9ff2-4078-6b0a" name="Mana Cost"/>
+        <characteristicType id="2c83-3837-6611-052d" name="Description"/>
+        <characteristicType id="b763-de80-6550-08ce" name="Amplified Cost"/>
+        <characteristicType id="cb5b-84dc-988d-68e1" name="Amplified Effect"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="5904-de56-1b9a-fece" name="Shroud">
+      <characteristicTypes>
+        <characteristicType id="4302-a417-a5c1-8c25" name="SP Cost"/>
+        <characteristicType id="23f7-ad16-c388-ab57" name="Description"/>
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
+  <categoryEntries>
+    <categoryEntry id="0e7d-14af-87ae-4be0" name="MYTH CYCLE" hidden="false"/>
+    <categoryEntry id="6341-ef34-98d5-a3aa" name="ULSTER CYCLE" hidden="false"/>
+    <categoryEntry id="8e76-42d2-d2a9-ada4" name="FIANNA CYCLE" hidden="false"/>
+    <categoryEntry id="63b8-fc1b-1645-dd8f" name="KING&apos;S CYCLE" hidden="false"/>
+    <categoryEntry id="107c-31d1-7f15-7de7" name="TUATHA" hidden="false"/>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="3bc5-7e6a-c74d-5ba9" name="Datacard Abilities" hidden="false" collective="false" import="true" targetId="6e56-6ee6-e068-d7c6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6fdf-5e85-89cc-abb7" name="New CategoryLink" hidden="false" targetId="8e72-4f3d-bfb2-b91e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="41df-8f2f-ee63-9d23" name="Faction Ability" hidden="false" collective="false" import="true" targetId="cb7e-0b2f-baef-5a0b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9146-61c7-8a38-aef5" name="New CategoryLink" hidden="false" targetId="8e72-4f3d-bfb2-b91e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e98a-e80d-1978-2435" name="Subfaction" hidden="false" collective="false" import="true" targetId="b93c-d50d-f62b-2991" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c236-8427-967f-8bdc" name="New CategoryLink" hidden="false" targetId="8e72-4f3d-bfb2-b91e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9094-8c3b-a240-adc9" name="Lugh" hidden="false" collective="false" import="true" targetId="2768-6a9e-db0b-7e6e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="65bd-7ee4-9e69-789d" name="CHARACTER" hidden="false" targetId="10c5-1200-a42c-d518" primary="false"/>
+        <categoryLink id="3c4b-dbf0-be24-11ce" name="CHARACTER" hidden="false" targetId="10c5-1200-a42c-d518" primary="false"/>
+        <categoryLink id="bec7-7d74-f894-9c24" name="New CategoryLink" hidden="false" targetId="1c6b-947a-abf8-be3b" primary="true"/>
+        <categoryLink id="412c-6bdb-876b-a0ed" name="LEGENDARY" hidden="false" targetId="bc39-4e44-a622-2b06" primary="false"/>
+        <categoryLink id="17e5-9415-1809-5aa5" name="MAGE" hidden="false" targetId="8c3e-da64-9b93-a9e6" primary="false"/>
+        <categoryLink id="3eff-f8f7-c548-3a20" name="MYTH CYCLE" hidden="false" targetId="0e7d-14af-87ae-4be0" primary="false"/>
+        <categoryLink id="a25a-3f01-6a14-042f" name="STRIDER" hidden="false" targetId="2ede-3137-1136-4408" primary="false"/>
+        <categoryLink id="deee-c1df-40db-e636" name="TUATHA" hidden="false" targetId="107c-31d1-7f15-7de7" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="840e-4e1f-ca87-b667" value="1500.0"/>
+      </costs>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="cb7e-0b2f-baef-5a0b" name="Faction Ability" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c03-46bc-e74e-4ca6" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8eeb-c3ab-4509-2e47" name="Shroud of Fear" hidden="false" typeId="5904-de56-1b9a-fece" typeName="Shroud">
+          <characteristics>
+            <characteristic name="SP Cost" typeId="4302-a417-a5c1-8c25">3</characteristic>
+            <characteristic name="Description" typeId="23f7-ad16-c388-ab57">While this shroud is Active, enemy Formations cannot benefit from positive modifiers to Will rolls. Additionally, must subtract 1 from Will rolls. When this shroud becomes active, all enemy Formations must make a Will roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="34fa-0f2a-f220-4cdb" name="Shroud of Pain" hidden="false" typeId="5904-de56-1b9a-fece" typeName="Shroud">
+          <characteristics>
+            <characteristic name="SP Cost" typeId="4302-a417-a5c1-8c25">4</characteristic>
+            <characteristic name="Description" typeId="23f7-ad16-c388-ab57">While this shroud is Active, each time an enemy Formation is selected to Activate in the Activation Step, roll 4D6. For each result of 5+, that Formation suffers 1 Ethereal Damage.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="924b-d94c-05a0-3a8b" name="Shroud of Forgetfulness" hidden="false" typeId="5904-de56-1b9a-fece" typeName="Shroud">
+          <characteristics>
+            <characteristic name="SP Cost" typeId="4302-a417-a5c1-8c25">4</characteristic>
+            <characteristic name="Description" typeId="23f7-ad16-c388-ab57">While this shroud is Active, if an enemy Formation within 24” of a friendly MAGE Formation successfully casts a Magic Spell. Instead of attempting to dispel that Magic Spell, you may roll a D6. On the result of 4+, that Magic Spell is dispelled.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1866-832b-f933-f1dc" name="Shroud of Thirst" hidden="false" typeId="5904-de56-1b9a-fece" typeName="Shroud">
+          <characteristics>
+            <characteristic name="SP Cost" typeId="4302-a417-a5c1-8c25">4</characteristic>
+            <characteristic name="Description" typeId="23f7-ad16-c388-ab57">While this shroud is Active, subtract 2&quot; from the Movement and Dash Characteristics of enemy non-LEGENDARY Formations. Additionally, enemy Formations must subtract 1 from Charge rolls.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="86c6-8434-8b43-5e2d" name="Shroud of Exhaustion" hidden="false" typeId="5904-de56-1b9a-fece" typeName="Shroud">
+          <characteristics>
+            <characteristic name="SP Cost" typeId="4302-a417-a5c1-8c25">6</characteristic>
+            <characteristic name="Description" typeId="23f7-ad16-c388-ab57">While this shroud is Active, enemy Formations must subtract 1 from Armour Saves.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3b55-f3cc-0f86-9e94" name="Shroud of Weakness" hidden="false" typeId="5904-de56-1b9a-fece" typeName="Shroud">
+          <characteristics>
+            <characteristic name="SP Cost" typeId="4302-a417-a5c1-8c25">8</characteristic>
+            <characteristic name="Description" typeId="23f7-ad16-c388-ab57">While this shroud is Active, enemy Formations must subtract 1 from Hit rolls and Wound rolls.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f1e3-f60e-5b8b-40ca" name="Shrouds of the Otherworld" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">You start the game with 0 Shroud Points (SP). You can gain Shroud Points in the following ways:
+
+- At the start of each round, roll a D6 for each Formation from your army that is on the field. On a result of a 6 (4+ if the Formation has the MAGE Tag and a 2+ if the Formation has the DEITY Tag), you gain 1SP.
+
+- You gain 1SP each time a friendly Formation successfully casts a Magic Spell, and that Magic Spell is not dispelled.
+
+- You gain 1SP each time an enemy Formation is destroyed with an Enchanted Weapon. 
+
+At the start of the round, you may spend SP on the Shrouds below.
+
+A Shroud is an ability that affects all enemy Formations so long as they are on the field when the Shroud becomes Active. 
+
+At the end of the round, the currently Active Shroud is no longer Active.
+
+Additionally, you can spend SP to amplify the effects of Magic Spells that friendly Formations have access too. Where this is the case, the Magic Spell will have the Amplified [XSP] marker. You do not gain SP from casting Amplified Magic Spells. If a Magic Spell has multiple Amplified values, select 1 of the Amplified effects to trigger.
+
+Some Formations in your army may also have abilities that require you to spend SP to use them.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="1467-12c4-37ab-8dcb" name="New CategoryLink" hidden="false" targetId="8e72-4f3d-bfb2-b91e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6e56-6ee6-e068-d7c6" name="Datacard Abilities" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9103-55fa-8ba2-006a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="3177-9fc0-532d-8cdd" name="Fight for the Clans" hidden="false" targetId="b6e1-ef52-ccbd-d654" type="profile"/>
+        <infoLink id="ee83-10d1-69ff-0adb" name="Spite of the Aes Sídhe (Status Ability)" hidden="false" targetId="ab0f-ee1b-e250-59b4" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="538f-a620-739b-dd4d" name="New CategoryLink" hidden="false" targetId="8e72-4f3d-bfb2-b91e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b93c-d50d-f62b-2991" name="Subfaction" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="924d-f20f-0dec-d4cb" name="New CategoryLink" hidden="false" targetId="8e72-4f3d-bfb2-b91e" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3feb-c23b-8a0b-06af" name="Subfaction Group" hidden="false" collective="false" import="true" targetId="51da-0503-6b3a-4328" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2768-6a9e-db0b-7e6e" name="Lugh" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="598b-b3d3-941c-99d4" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7851-bda0-218b-305a" name="Lugh" hidden="false" typeId="887c-f433-52eb-6983" typeName="Formation Statblock">
+          <characteristics>
+            <characteristic name="Move" typeId="2cf7-cf06-d23e-9b8a">12&quot;</characteristic>
+            <characteristic name="Dash" typeId="6cd7-c82b-d03e-dbbd">6&quot;</characteristic>
+            <characteristic name="Health" typeId="c61c-0386-7ff1-cfa0">36</characteristic>
+            <characteristic name="Will" typeId="3e46-9fc8-86f6-1bc5">6+</characteristic>
+            <characteristic name="Armour" typeId="7fbc-6b2f-f2c0-ff9f">3+</characteristic>
+            <characteristic name="Durability" typeId="eb56-7a27-3e4a-8e75">5+</characteristic>
+            <characteristic name="Actions" typeId="708a-ef06-1356-6d3e">3</characteristic>
+            <characteristic name="Focus" typeId="8a1d-2d56-bcfc-a3c2">6</characteristic>
+            <characteristic name="Command" typeId="0dfc-1b4c-c35a-8a03">8</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d17c-0ebb-9810-b80b" name="King, Warrior, Master" hidden="true" typeId="92ef-c043-1c14-70b5" typeName="Devotion Ability">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b3d8-4f8e-cddf-eff9" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Description" typeId="149d-d3dd-787d-169c">Each time this Formation is selected to Activate in the Activation Step, select a friendly non-LEGENDARY non-CHARACTER Formation within 12” of this Formation. The Selected Formation may Activate immediately after this Formation.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoGroups>
+        <infoGroup id="324c-719e-4f75-ff5f" name="Weapons" hidden="false">
+          <profiles>
+            <profile id="9282-a978-ae8b-7fee" name="Aenbharr’s Hooves" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">1&quot;</characteristic>
+                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">4</characteristic>
+                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">4+</characteristic>
+                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">4+</characteristic>
+                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">1</characteristic>
+                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">1</characteristic>
+                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Fragmenting 1, Ethereal 1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="bc8e-58b2-9f1a-f44f" name="Fragarach" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">2&quot;</characteristic>
+                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">2</characteristic>
+                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">2+</characteristic>
+                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">3</characteristic>
+                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">4</characteristic>
+                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Brutal</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e7af-5700-d203-f327" name="Gae Assail (Strike)" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">3&quot;</characteristic>
+                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">4</characteristic>
+                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">2+</characteristic>
+                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">3</characteristic>
+                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">3</characteristic>
+                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Ethereal 3, Devastating</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="d84d-2fd8-5c79-e952" name="Gae Assail (Sweep)" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">3&quot;</characteristic>
+                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">6</characteristic>
+                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">2+</characteristic>
+                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">2</characteristic>
+                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">2</characteristic>
+                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Ethereal 1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="2da4-f0fc-e996-3c8a" name="Gae Assail " hidden="false" typeId="724e-177d-72f6-2e34" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="a043-4a74-9e04-818d">18&quot;</characteristic>
+                <characteristic name="Attacks" typeId="e7dc-7248-6581-6a5e">D6+2</characteristic>
+                <characteristic name="Hit" typeId="617c-ae43-0c5f-fc05">3+</characteristic>
+                <characteristic name="Wound" typeId="c9f3-9662-cd72-d446">3+</characteristic>
+                <characteristic name="Rend" typeId="2325-6660-26ab-e356">2</characteristic>
+                <characteristic name="Damage" typeId="e5a5-8c0b-c8ce-3e1d">D3+2</characteristic>
+                <characteristic name="Abilities" typeId="0dc5-c999-dc75-4574">Ethereal 2, Enchanted 15, Devastating</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="bce1-99f9-c628-54a8" name="Lugh’s Chain " hidden="false" typeId="724e-177d-72f6-2e34" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="a043-4a74-9e04-818d">12&quot;</characteristic>
+                <characteristic name="Attacks" typeId="e7dc-7248-6581-6a5e">4</characteristic>
+                <characteristic name="Hit" typeId="617c-ae43-0c5f-fc05">2+</characteristic>
+                <characteristic name="Wound" typeId="c9f3-9662-cd72-d446">3+</characteristic>
+                <characteristic name="Rend" typeId="2325-6660-26ab-e356">2</characteristic>
+                <characteristic name="Damage" typeId="e5a5-8c0b-c8ce-3e1d">2</characteristic>
+                <characteristic name="Abilities" typeId="0dc5-c999-dc75-4574">Fragmenting 2, Ethereal 2, Devastating</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="a1b7-31fe-6c18-c21e" name="Magic" hidden="false">
+          <profiles>
+            <profile id="8c6e-bc75-d6df-2d61" name="MAGE" hidden="false" typeId="7c2f-d43d-124c-b04f" typeName="MAGE">
+              <characteristics>
+                <characteristic name="Mage Level" typeId="973b-1c4f-57f3-d4ec">3</characteristic>
+                <characteristic name="Mana" typeId="ead1-359a-f442-7dc5">30</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="92c9-9366-44a0-4793" name="Master of the Arts" hidden="false" typeId="c0fb-45e8-4c55-1a93" typeName="Amplified Magic Spell">
+              <characteristics>
+                <characteristic name="Casting Value" typeId="027b-4299-3d33-9ed5">11+</characteristic>
+                <characteristic name="Mana Cost" typeId="5936-9ff2-4078-6b0a">15</characteristic>
+                <characteristic name="Description" typeId="2c83-3837-6611-052d">Select a friendly non-LEGENDARY Formation wholly within 18&quot; of this Formation and roll a D3. Until the end of the round, change the Hit, Wound or Rend Characteristic of a melee weapon that models in that Formation are equipped with to the result. For example, if you roll a 2, then choose the Hit Characteristic, that weapon has a Hit Characteristic of 2+.</characteristic>
+                <characteristic name="Amplified Cost" typeId="b763-de80-6550-08ce">3</characteristic>
+                <characteristic name="Amplified Effect" typeId="cb5b-84dc-988d-68e1">You may select up to three friendly non-LEGENDARY Formations instead of 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="8412-63f2-4d91-09ea" name="Abilities" hidden="false">
+          <profiles>
+            <profile id="89ca-8cc9-dded-c666" name="Gae Assail" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">When this Formation makes melee attacks with its Gael Assail weapon while performing an Action, select either the Strike or Sweep profile to make all of those attacks with.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="2423-9856-b92e-afb1" name="Tuatha Dé Dannan" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">This Formation has the Godly Form 4+ and Spite of the Aes Sídhe abilities.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="47f1-af1c-c1e5-1247" name="Aenbharr of Manannán" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">This Formation ignores all negative modifiers to its Movement Characteristic, Dash Characteristic and Charge rolls.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="deec-8fbb-0af7-2183" name="Warrior King (Aura)" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">Friendly non-LEGENDARY Formations wholly within 18” of this Formation may re-roll Hit rolls of 1 and 2.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="80c8-64e3-d13a-462b" name="Saviour of the Tuatha" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">Each time this Formation destroys an enemy LEGENDARY, DEITY or MONSTER Formation, select a friendly non-LEGENDARY Formation wholly within 18” of this Formation. Until the end of the round, add 1 to the Attacks Characteristic of weapons the selected Formation is equipped with. Each Formation can only be targeted by this ability once per round.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="b27c-dbed-e4c8-72b1" name="Heroics" hidden="false">
+          <profiles>
+            <profile id="58ab-987b-10ab-2c7f" name="Oath of the Tuatha" hidden="false" typeId="7e00-97fa-e372-de69" typeName="Heroic">
+              <characteristics>
+                <characteristic name="Focus" typeId="80e7-2ca3-3541-ee59">3</characteristic>
+                <characteristic name="Description" typeId="09a5-97e1-8bdf-b2b4">Use this Heroic at the start of the Activation Step. Select a non- LEGENDARY friendly Formation wholly within 18” of this Formation. The selected Formation may perform an additional Charge-Fight Action this Step.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="faf4-3ef9-ad5a-5759" name="Shared Abilities" hidden="false">
+          <infoLinks>
+            <infoLink id="3d76-7602-b23e-7a76" name="(W) Brutal" hidden="false" targetId="fcab-f65a-c13e-9f93" type="profile"/>
+            <infoLink id="b509-1504-eb3c-ea0d" name="(W) Devastating" hidden="false" targetId="92b9-fbed-489b-a6a8" type="profile"/>
+            <infoLink id="9849-9e86-af91-b5ec" name="(W) Fragmenting X" hidden="false" targetId="5f9d-4d76-25e5-7835" type="profile"/>
+            <infoLink id="3e22-7543-dc89-fbef" name="(W) Ethereal X" hidden="false" targetId="0fd5-da19-9133-2f3e" type="profile"/>
+            <infoLink id="6407-fadf-6910-09be" name="(W) Enchanted X" hidden="false" targetId="76f3-6c97-4734-c8c6" type="profile"/>
+            <infoLink id="5e56-baeb-256f-ff0c" name="Godly Form X+" hidden="false" targetId="b82d-6115-66ae-e91a" type="profile"/>
+            <infoLink id="844c-3ef0-4213-76c1" name="Spite of the Aes Sídhe (Status Ability)" hidden="false" targetId="ab0f-ee1b-e250-59b4" type="profile"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink id="c051-2c5b-aa21-2374" name="LEGENDARY" hidden="false" targetId="bc39-4e44-a622-2b06" primary="false"/>
+        <categoryLink id="704d-996e-d63f-1ab2" name="CHARACTER" hidden="false" targetId="10c5-1200-a42c-d518" primary="false"/>
+        <categoryLink id="a8c0-1ab3-a6d9-efa3" name="New CategoryLink" hidden="false" targetId="1c6b-947a-abf8-be3b" primary="true"/>
+        <categoryLink id="8c56-8ac2-ffcd-77f7" name="STRIDER" hidden="false" targetId="2ede-3137-1136-4408" primary="false"/>
+        <categoryLink id="094f-28b6-4159-613c" name="MAGE" hidden="false" targetId="8c3e-da64-9b93-a9e6" primary="false"/>
+        <categoryLink id="aa14-091e-179c-6452" name="MYTH CYCLE" hidden="false" targetId="0e7d-14af-87ae-4be0" primary="false"/>
+        <categoryLink id="d8ea-386e-55ff-0bd8" name="TUATHA" hidden="false" targetId="107c-31d1-7f15-7de7" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b3d8-4f8e-cddf-eff9" name="Warlord" hidden="false" collective="false" import="true" targetId="d87d-0514-aebf-61a3" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="51da-0503-6b3a-4328" name="Subfaction Group" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db3c-6732-8fff-3870" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b9f-4711-830b-9eb3" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7a02-f8ae-8599-8157" name="New CategoryLink" hidden="false" targetId="8e72-4f3d-bfb2-b91e" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3116-8ba0-7ffc-6300" name="Fianna Cycle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73dc-8c14-b59d-9bc5" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8385-fa23-c4a6-1e3e" name="Traverse the Otherworld" hidden="false" typeId="c0fb-45e8-4c55-1a93" typeName="Amplified Magic Spell">
+              <characteristics>
+                <characteristic name="Casting Value" typeId="027b-4299-3d33-9ed5">12+</characteristic>
+                <characteristic name="Mana Cost" typeId="5936-9ff2-4078-6b0a">10</characteristic>
+                <characteristic name="Description" typeId="2c83-3837-6611-052d">Select a friendly FIANNA CYCLE Formation within 12&quot; of this Formation. The selected Formation may immediately move up to its Dash Characteristic. This movement must end more than 3” from any enemy models.</characteristic>
+                <characteristic name="Amplified Cost" typeId="b763-de80-6550-08ce">1</characteristic>
+                <characteristic name="Amplified Effect" typeId="cb5b-84dc-988d-68e1">Increase the range of this Magic Spell by 6”.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0abc-8f78-38ec-f449" name="Hunters in the Otherworld" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">Weapons that friendly FIANNA CYCLE Formations are equipped with have the Hatred-MONSTER 4+ and the MONSTER-BANE 1 abilities.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="ddf5-dfef-854f-3b40" name="(W) Hatred-TAG X+" hidden="false" targetId="b058-96e7-2996-6e41" type="profile"/>
+            <infoLink id="e0c8-4720-8704-b626" name="(W) TAG-Bane X" hidden="false" targetId="dc3b-27bf-cdf3-7aa3" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="201b-1fab-182e-385d" name="King&apos;s Cycle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="961d-932d-ddf9-2608" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1503-7ea9-dee7-6488" name="Records of the Great Kings" hidden="false" typeId="c0fb-45e8-4c55-1a93" typeName="Amplified Magic Spell">
+              <characteristics>
+                <characteristic name="Casting Value" typeId="027b-4299-3d33-9ed5">12+</characteristic>
+                <characteristic name="Mana Cost" typeId="5936-9ff2-4078-6b0a">10</characteristic>
+                <characteristic name="Description" typeId="2c83-3837-6611-052d">Select an enemy Formation within 12&quot; of this Formation. The selected Formation gains D3 Spite Tokens.</characteristic>
+                <characteristic name="Amplified Cost" typeId="b763-de80-6550-08ce">1</characteristic>
+                <characteristic name="Amplified Effect" typeId="cb5b-84dc-988d-68e1">Increase the range of this Magic Spell by 6”.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="2c6f-055f-1aff-3564" name="Deeds of the High Kings (Aura)" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">Each time a friendly Formations within 6” of a friendly KINGS’ CYCLE CHARACTER Formation performs an Action, you may re-roll a Hit roll and a Wound roll made during that Action.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2b0d-9190-9f75-d5d6" name="Myth Cycle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5b6-fd21-5b09-a6ad" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="bbad-8754-2096-c6cb" name="The Great Tragedy" hidden="false" typeId="c0fb-45e8-4c55-1a93" typeName="Amplified Magic Spell">
+              <characteristics>
+                <characteristic name="Casting Value" typeId="027b-4299-3d33-9ed5">12+</characteristic>
+                <characteristic name="Mana Cost" typeId="5936-9ff2-4078-6b0a">10</characteristic>
+                <characteristic name="Description" typeId="2c83-3837-6611-052d">Select an enemy non-LEGENDARY Formation within 12&quot; of this Formation. Until the end of the round, the selected Formation must subtract 1 from Hit rolls.</characteristic>
+                <characteristic name="Amplified Cost" typeId="b763-de80-6550-08ce">1</characteristic>
+                <characteristic name="Amplified Effect" typeId="cb5b-84dc-988d-68e1">Increase the range of this Magic Spell by 6”.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f865-8eb9-d0f7-f40e" name="Children of Dannu" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">Each time a friendly MYTH CYCLE Formation makes an attack, you may re-roll a Wound roll of 1 for that attack.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="556d-403b-8ce1-391f" name="Ulster Cycle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="006d-6bdf-36fd-33c0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7766-cca9-90f9-bd32" name="Rage of the Isle of Shadow" hidden="false" typeId="c0fb-45e8-4c55-1a93" typeName="Amplified Magic Spell">
+              <characteristics>
+                <characteristic name="Casting Value" typeId="027b-4299-3d33-9ed5">12+</characteristic>
+                <characteristic name="Mana Cost" typeId="5936-9ff2-4078-6b0a">10</characteristic>
+                <characteristic name="Description" typeId="2c83-3837-6611-052d">Select a friendly CHARACTER Formation within 12&quot; of this Formation. Until the end of the round, the selected Formation may add 1 to Hit rolls and Charge rolls.</characteristic>
+                <characteristic name="Amplified Cost" typeId="b763-de80-6550-08ce">1</characteristic>
+                <characteristic name="Amplified Effect" typeId="cb5b-84dc-988d-68e1">Increase the range of this Magic Spell by 6”.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="53f6-b64d-6dbf-27b6" name="Greatest of Heroes" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">Friendly non-DEITY ULSTER CYCLE Formations gain the Enraged ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="691d-805d-c576-11d9" name="Enraged" hidden="false" targetId="38b8-5631-5be2-7a06" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="840e-4e1f-ca87-b667" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedProfiles>
+    <profile id="ab0f-ee1b-e250-59b4" name="Spite of the Aes Sídhe (Status Ability)" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+      <characteristics>
+        <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">Whenever an enemy Formation destroys a friendly Formation with this ability, that enemy Formation gains 1 Spite Token.
+
+Additionally, each time this Formation successfully casts a Magic Spell that was amplified, if that Magic Spell was not dispelled, select an enemy Formation within 9” of this Formation. The selected Formation gains 1 Spite Token.
+
+Each enemy Formation can have up to 3 Spite Tokens. The effects of each Spite Token are cumulative.
+
+1 Spite Token
+Each time this Formation makes an attack with an Enchanted weapon that targets Each time this Formation makes an attack with an Enchanted weapon that targets an enemy Formation with 1 Spite Token, add 1 to the Hit roll of that attack.
+
+2 Spite Tokens
+Each time this Formation makes an attack with an Enchanted weapon that targets an enemy Formation with 2 Spite Tokens, add 1 to the Wound roll of that attack.
+
+3 Spite Tokens
+Each time this Formation makes an attack with an Enchanted weapon that targets Each time this Formation makes an attack with an Enchanted weapon that targets an enemy Formation with 3 Spite Tokens, add 1 to the Damage Characteristic of that attack.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b6e1-ef52-ccbd-d654" name="Fight for the Clans" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+      <characteristics>
+        <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">Each time a model from this Formation is destroyed, it may make a Fight Action or Ranged Attack Action as long as this Formation has at least 1 Action remaining (the Action is not spent making this attack).</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
