@@ -221,78 +221,74 @@ Some Formations in your army may also have abilities that require you to spend S
             <characteristic name="Command" typeId="0dfc-1b4c-c35a-8a03">8</characteristic>
           </characteristics>
         </profile>
+        <profile id="d654-734c-ff81-f66c" name="Aenbharr’s Hooves" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">1&quot;</characteristic>
+            <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">4</characteristic>
+            <characteristic name="Hit" typeId="9941-87ec-f12d-8470">4+</characteristic>
+            <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">4+</characteristic>
+            <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">1</characteristic>
+            <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">1</characteristic>
+            <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Fragmenting 1, Ethereal 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1143-7f11-4e0f-ca80" name="Fragarach" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">2&quot;</characteristic>
+            <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">2</characteristic>
+            <characteristic name="Hit" typeId="9941-87ec-f12d-8470">2+</characteristic>
+            <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+            <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">3</characteristic>
+            <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">4</characteristic>
+            <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Brutal</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="49b2-a86b-7d8e-9008" name="Gae Assail (Strike)" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">3&quot;</characteristic>
+            <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">4</characteristic>
+            <characteristic name="Hit" typeId="9941-87ec-f12d-8470">2+</characteristic>
+            <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+            <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">3</characteristic>
+            <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">3</characteristic>
+            <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Ethereal 3, Devastating</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c189-e4b7-645c-bde5" name="Gae Assail (Sweep)" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">3&quot;</characteristic>
+            <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">6</characteristic>
+            <characteristic name="Hit" typeId="9941-87ec-f12d-8470">2+</characteristic>
+            <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+            <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">2</characteristic>
+            <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">2</characteristic>
+            <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Ethereal 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4033-e62b-20a6-b18f" name="Gae Assail " hidden="false" typeId="724e-177d-72f6-2e34" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="a043-4a74-9e04-818d">18&quot;</characteristic>
+            <characteristic name="Attacks" typeId="e7dc-7248-6581-6a5e">D6+2</characteristic>
+            <characteristic name="Hit" typeId="617c-ae43-0c5f-fc05">3+</characteristic>
+            <characteristic name="Wound" typeId="c9f3-9662-cd72-d446">3+</characteristic>
+            <characteristic name="Rend" typeId="2325-6660-26ab-e356">2</characteristic>
+            <characteristic name="Damage" typeId="e5a5-8c0b-c8ce-3e1d">D3+2</characteristic>
+            <characteristic name="Abilities" typeId="0dc5-c999-dc75-4574">Ethereal 2, Enchanted 15, Devastating</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2f5f-0e2d-23e1-5c62" name="Lugh’s Chain " hidden="false" typeId="724e-177d-72f6-2e34" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="a043-4a74-9e04-818d">12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="e7dc-7248-6581-6a5e">4</characteristic>
+            <characteristic name="Hit" typeId="617c-ae43-0c5f-fc05">2+</characteristic>
+            <characteristic name="Wound" typeId="c9f3-9662-cd72-d446">3+</characteristic>
+            <characteristic name="Rend" typeId="2325-6660-26ab-e356">2</characteristic>
+            <characteristic name="Damage" typeId="e5a5-8c0b-c8ce-3e1d">2</characteristic>
+            <characteristic name="Abilities" typeId="0dc5-c999-dc75-4574">Fragmenting 2, Ethereal 2, Devastating</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
-        <infoGroup id="324c-719e-4f75-ff5f" name="Weapons" hidden="false">
-          <profiles>
-            <profile id="9282-a978-ae8b-7fee" name="Aenbharr’s Hooves" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">1&quot;</characteristic>
-                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">4</characteristic>
-                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">4+</characteristic>
-                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">4+</characteristic>
-                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">1</characteristic>
-                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">1</characteristic>
-                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Fragmenting 1, Ethereal 1</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="bc8e-58b2-9f1a-f44f" name="Fragarach" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">2&quot;</characteristic>
-                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">2</characteristic>
-                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">2+</characteristic>
-                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
-                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">3</characteristic>
-                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">4</characteristic>
-                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Brutal</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="e7af-5700-d203-f327" name="Gae Assail (Strike)" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">3&quot;</characteristic>
-                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">4</characteristic>
-                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">2+</characteristic>
-                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
-                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">3</characteristic>
-                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">3</characteristic>
-                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Ethereal 3, Devastating</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="d84d-2fd8-5c79-e952" name="Gae Assail (Sweep)" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">3&quot;</characteristic>
-                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">6</characteristic>
-                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">2+</characteristic>
-                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
-                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">2</characteristic>
-                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">2</characteristic>
-                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Ethereal 1</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="2da4-f0fc-e996-3c8a" name="Gae Assail " hidden="false" typeId="724e-177d-72f6-2e34" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="a043-4a74-9e04-818d">18&quot;</characteristic>
-                <characteristic name="Attacks" typeId="e7dc-7248-6581-6a5e">D6+2</characteristic>
-                <characteristic name="Hit" typeId="617c-ae43-0c5f-fc05">3+</characteristic>
-                <characteristic name="Wound" typeId="c9f3-9662-cd72-d446">3+</characteristic>
-                <characteristic name="Rend" typeId="2325-6660-26ab-e356">2</characteristic>
-                <characteristic name="Damage" typeId="e5a5-8c0b-c8ce-3e1d">D3+2</characteristic>
-                <characteristic name="Abilities" typeId="0dc5-c999-dc75-4574">Ethereal 2, Enchanted 15, Devastating</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="bce1-99f9-c628-54a8" name="Lugh’s Chain " hidden="false" typeId="724e-177d-72f6-2e34" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="a043-4a74-9e04-818d">12&quot;</characteristic>
-                <characteristic name="Attacks" typeId="e7dc-7248-6581-6a5e">4</characteristic>
-                <characteristic name="Hit" typeId="617c-ae43-0c5f-fc05">2+</characteristic>
-                <characteristic name="Wound" typeId="c9f3-9662-cd72-d446">3+</characteristic>
-                <characteristic name="Rend" typeId="2325-6660-26ab-e356">2</characteristic>
-                <characteristic name="Damage" typeId="e5a5-8c0b-c8ce-3e1d">2</characteristic>
-                <characteristic name="Abilities" typeId="0dc5-c999-dc75-4574">Fragmenting 2, Ethereal 2, Devastating</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </infoGroup>
         <infoGroup id="a1b7-31fe-6c18-c21e" name="Magic" hidden="false">
           <profiles>
             <profile id="8c6e-bc75-d6df-2d61" name="MAGE LEVEL" hidden="false" typeId="7c2f-d43d-124c-b04f" typeName="MAGE">
@@ -421,6 +417,39 @@ Some Formations in your army may also have abilities that require you to spend S
             <characteristic name="Command" typeId="0dfc-1b4c-c35a-8a03">8</characteristic>
           </characteristics>
         </profile>
+        <profile id="8e76-48f6-b52e-4dae" name="Casúr Brionnaithe (Strike)" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">2&quot;</characteristic>
+            <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">3</characteristic>
+            <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+            <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+            <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">3</characteristic>
+            <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">3</characteristic>
+            <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Brutal, Concussive D3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9e39-e1b0-5820-2356" name="Casúr Brionnaithe (Swing)" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">2&quot;</characteristic>
+            <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">6</characteristic>
+            <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+            <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+            <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">1</characteristic>
+            <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">1</characteristic>
+            <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Concussive 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="439d-82b7-e9fe-2f5b" name="Pillar of Fire" hidden="false" typeId="724e-177d-72f6-2e34" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="a043-4a74-9e04-818d">12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="e7dc-7248-6581-6a5e">3D6</characteristic>
+            <characteristic name="Hit" typeId="617c-ae43-0c5f-fc05">-</characteristic>
+            <characteristic name="Wound" typeId="c9f3-9662-cd72-d446">3+</characteristic>
+            <characteristic name="Rend" typeId="2325-6660-26ab-e356">1</characteristic>
+            <characteristic name="Damage" typeId="e5a5-8c0b-c8ce-3e1d">1</characteristic>
+            <characteristic name="Abilities" typeId="0dc5-c999-dc75-4574">Auto-Hit, Ethereal 2, Enchanted 15</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="4ecd-07cc-51ec-ad7a" name="Abilities" hidden="false">
@@ -477,43 +506,6 @@ Some Formations in your army may also have abilities that require you to spend S
                 <characteristic name="Description" typeId="2c83-3837-6611-052d">Select a non-LEGENDARY Formation within 9&quot; of this Formation. Add 1 to the Damage Characteristic of weapons that the selected Formation is equipped with until the end of the round. A Formation may not be targeted by this Magic Spell more than once per round.</characteristic>
                 <characteristic name="Amplified Cost" typeId="b763-de80-6550-08ce">5</characteristic>
                 <characteristic name="Amplified Effect" typeId="cb5b-84dc-988d-68e1">Add an additional 1 to the Damage Characteristic of weapons that the selected Formation is equipped with until the end of the round.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </infoGroup>
-        <infoGroup id="208e-a739-c881-94f2" name="Weapons" hidden="false">
-          <profiles>
-            <profile id="c980-1d08-3d8c-0a78" name="Pillar of Fire" hidden="false" typeId="724e-177d-72f6-2e34" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="a043-4a74-9e04-818d">12&quot;</characteristic>
-                <characteristic name="Attacks" typeId="e7dc-7248-6581-6a5e">3D6</characteristic>
-                <characteristic name="Hit" typeId="617c-ae43-0c5f-fc05">-</characteristic>
-                <characteristic name="Wound" typeId="c9f3-9662-cd72-d446">3+</characteristic>
-                <characteristic name="Rend" typeId="2325-6660-26ab-e356">1</characteristic>
-                <characteristic name="Damage" typeId="e5a5-8c0b-c8ce-3e1d">1</characteristic>
-                <characteristic name="Abilities" typeId="0dc5-c999-dc75-4574">Auto-Hit, Ethereal 2, Enchanted 15</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="cdf8-07fc-3f65-4a70" name="Casúr Brionnaithe (Strike)" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">2&quot;</characteristic>
-                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">3</characteristic>
-                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
-                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
-                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">3</characteristic>
-                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">3</characteristic>
-                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Brutal, Concussive D3</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="2f1b-1491-4d00-62b0" name="Casúr Brionnaithe (Swing)" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">2&quot;</characteristic>
-                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">6</characteristic>
-                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
-                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
-                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">1</characteristic>
-                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">1</characteristic>
-                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Concussive 1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -588,6 +580,39 @@ Some Formations in your army may also have abilities that require you to spend S
             <characteristic name="Command" typeId="0dfc-1b4c-c35a-8a03">6</characteristic>
           </characteristics>
         </profile>
+        <profile id="bf52-91eb-fc0c-f9ab" name="Twin Spears (Strike)" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">3&quot;</characteristic>
+            <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">3</characteristic>
+            <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+            <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+            <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">3</characteristic>
+            <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">4</characteristic>
+            <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Brutal, Devastating, Pierce 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="edb7-732c-3d11-cabb" name="Twin Spears (Swing)" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">3&quot;</characteristic>
+            <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">7</characteristic>
+            <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+            <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+            <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">1</characteristic>
+            <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">2</characteristic>
+            <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Pierce 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="94fe-e5e5-679f-d3f9" name="The Morrígan’s Scream" hidden="false" typeId="724e-177d-72f6-2e34" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="a043-4a74-9e04-818d">18&quot;</characteristic>
+            <characteristic name="Attacks" typeId="e7dc-7248-6581-6a5e">D6+2</characteristic>
+            <characteristic name="Hit" typeId="617c-ae43-0c5f-fc05">3+</characteristic>
+            <characteristic name="Wound" typeId="c9f3-9662-cd72-d446">3+</characteristic>
+            <characteristic name="Rend" typeId="2325-6660-26ab-e356">2</characteristic>
+            <characteristic name="Damage" typeId="e5a5-8c0b-c8ce-3e1d">1</characteristic>
+            <characteristic name="Abilities" typeId="0dc5-c999-dc75-4574">Brutal, Devastating, Enchanted 10</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="0f5e-db8d-2d53-09c4" name="Abilities" hidden="false">
@@ -658,43 +683,6 @@ At the end of each Movement Step, roll a D6. On the result of 3+ (add 1 to the r
             </profile>
           </profiles>
         </infoGroup>
-        <infoGroup id="5ed9-b830-809b-e706" name="Weapons" hidden="false">
-          <profiles>
-            <profile id="2e36-35cc-52a2-757d" name="The Morrígan’s Scream" hidden="false" typeId="724e-177d-72f6-2e34" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="a043-4a74-9e04-818d">18&quot;</characteristic>
-                <characteristic name="Attacks" typeId="e7dc-7248-6581-6a5e">D6+2</characteristic>
-                <characteristic name="Hit" typeId="617c-ae43-0c5f-fc05">3+</characteristic>
-                <characteristic name="Wound" typeId="c9f3-9662-cd72-d446">3+</characteristic>
-                <characteristic name="Rend" typeId="2325-6660-26ab-e356">2</characteristic>
-                <characteristic name="Damage" typeId="e5a5-8c0b-c8ce-3e1d">1</characteristic>
-                <characteristic name="Abilities" typeId="0dc5-c999-dc75-4574">Brutal, Devastating, Enchanted 10</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="a657-aa4e-485a-b166" name="Twin Spears (Strike)" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">3&quot;</characteristic>
-                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">3</characteristic>
-                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
-                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
-                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">3</characteristic>
-                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">4</characteristic>
-                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Brutal, Devastating, Pierce 1</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="8dd5-eaad-e973-2ddf" name="Twin Spears (Swing)" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">3&quot;</characteristic>
-                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">7</characteristic>
-                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
-                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
-                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">1</characteristic>
-                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">2</characteristic>
-                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Pierce 1</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </infoGroup>
       </infoGroups>
       <categoryLinks>
         <categoryLink id="90a4-5a63-513c-8591" name="DEITY" hidden="false" targetId="1c6b-947a-abf8-be3b" primary="true"/>
@@ -760,6 +748,28 @@ At the end of each Movement Step, roll a D6. On the result of 3+ (add 1 to the r
             <characteristic name="Command" typeId="0dfc-1b4c-c35a-8a03">12</characteristic>
           </characteristics>
         </profile>
+        <profile id="9f50-ae0f-90ad-7ee9" name="Sliocht na Marbh (Sweep)" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">3&quot;</characteristic>
+            <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">6</characteristic>
+            <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+            <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+            <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">2</characteristic>
+            <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">2</characteristic>
+            <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Hatred-CAVALRY 3+,  Ethereal 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2ea7-5b2f-7fbe-9b4c" name="Sliocht na Marbh (Thrust)" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">3&quot;</characteristic>
+            <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">2</characteristic>
+            <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+            <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+            <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">2</characteristic>
+            <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">5</characteristic>
+            <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Hatred-CAVALRY 3+,  Ethereal 3</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="2053-2f0a-9be1-e6f7" name="Abilities" hidden="false">
@@ -811,32 +821,6 @@ At the end of each Movement Step, roll a D6. On the result of 3+ (add 1 to the r
                 <characteristic name="Description" typeId="2c83-3837-6611-052d">Select an enemy non-LEGENDARY Formation within 12” of this Formation. That Formation is sent to the Realm Between. Until the end of the round, whenever the selected Formation cannot be chosen to Activate as your opponent’s next Activation.</characteristic>
                 <characteristic name="Amplified Cost" typeId="b763-de80-6550-08ce">1</characteristic>
                 <characteristic name="Amplified Effect" typeId="cb5b-84dc-988d-68e1">Increase the range of this Magic Spell to 18”.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </infoGroup>
-        <infoGroup id="4ad7-c117-cfb9-0d2e" name="Weapons" hidden="false">
-          <profiles>
-            <profile id="3427-8e19-51cf-5716" name="Sliocht na Marbh (Thrust)" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">3&quot;</characteristic>
-                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">2</characteristic>
-                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
-                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
-                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">2</characteristic>
-                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">5</characteristic>
-                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Hatred-CAVALRY 3+,  Ethereal 3</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="0cb8-bc3b-6c1d-5817" name="Sliocht na Marbh (Sweep)" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">3&quot;</characteristic>
-                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">6</characteristic>
-                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
-                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
-                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">2</characteristic>
-                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">2</characteristic>
-                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Hatred-CAVALRY 3+,  Ethereal 1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -908,6 +892,50 @@ At the end of each Movement Step, roll a D6. On the result of 3+ (add 1 to the r
             <characteristic name="Command" typeId="0dfc-1b4c-c35a-8a03">4</characteristic>
           </characteristics>
         </profile>
+        <profile id="986f-6004-ceaa-7237" name="Cú’s Sword" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">1&quot;</characteristic>
+            <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">2</characteristic>
+            <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+            <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+            <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">2</characteristic>
+            <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">1</characteristic>
+            <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Critical Wound rolls 5+, Ethereal 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2091-aaa7-ad9a-503b" name="Gáe Bulg" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">3!</characteristic>
+            <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">5</characteristic>
+            <characteristic name="Hit" typeId="9941-87ec-f12d-8470">2+</characteristic>
+            <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+            <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">2</characteristic>
+            <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">3</characteristic>
+            <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Critical Wound rolls 5+, Ethereal 2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8244-ff4d-5775-85ec" name="Cú’s Sling Stone" hidden="false" typeId="724e-177d-72f6-2e34" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="a043-4a74-9e04-818d">12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="e7dc-7248-6581-6a5e">D6</characteristic>
+            <characteristic name="Hit" typeId="617c-ae43-0c5f-fc05">3+</characteristic>
+            <characteristic name="Wound" typeId="c9f3-9662-cd72-d446">3+</characteristic>
+            <characteristic name="Rend" typeId="2325-6660-26ab-e356">-</characteristic>
+            <characteristic name="Damage" typeId="e5a5-8c0b-c8ce-3e1d">1</characteristic>
+            <characteristic name="Abilities" typeId="0dc5-c999-dc75-4574">Critical Wound rolls 5+, Ethereal 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d99b-cb91-c2ee-7a5c" name="Gáe Bulg" hidden="false" typeId="724e-177d-72f6-2e34" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="a043-4a74-9e04-818d">18&quot;</characteristic>
+            <characteristic name="Attacks" typeId="e7dc-7248-6581-6a5e">1</characteristic>
+            <characteristic name="Hit" typeId="617c-ae43-0c5f-fc05">3+</characteristic>
+            <characteristic name="Wound" typeId="c9f3-9662-cd72-d446">3+</characteristic>
+            <characteristic name="Rend" typeId="2325-6660-26ab-e356">2</characteristic>
+            <characteristic name="Damage" typeId="e5a5-8c0b-c8ce-3e1d">3</characteristic>
+            <characteristic name="Abilities" typeId="0dc5-c999-dc75-4574">Critical Wound rolls 5+, Ethereal 2</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoGroups>
         <infoGroup id="d206-7307-068e-1518" name="Abilites" hidden="false">
@@ -935,54 +963,6 @@ At the end of each Movement Step, roll a D6. On the result of 3+ (add 1 to the r
               <characteristics>
                 <characteristic name="Focus" typeId="80e7-2ca3-3541-ee59">2</characteristic>
                 <characteristic name="Description" typeId="09a5-97e1-8bdf-b2b4">Use this Heroic when this Formation completes the charge portion of a Charge-Fight action. Improve the Rend Characteristic of this Formation’s Gáe Bulg weapon by 1 until the end of the Action.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </infoGroup>
-        <infoGroup id="4738-81c4-213f-ed33" name="Weapons" hidden="false">
-          <profiles>
-            <profile id="b497-17cd-6e58-bb86" name="Cú’s Sling Stone" hidden="false" typeId="724e-177d-72f6-2e34" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="a043-4a74-9e04-818d">12&quot;</characteristic>
-                <characteristic name="Attacks" typeId="e7dc-7248-6581-6a5e">D6</characteristic>
-                <characteristic name="Hit" typeId="617c-ae43-0c5f-fc05">3+</characteristic>
-                <characteristic name="Wound" typeId="c9f3-9662-cd72-d446">3+</characteristic>
-                <characteristic name="Rend" typeId="2325-6660-26ab-e356">-</characteristic>
-                <characteristic name="Damage" typeId="e5a5-8c0b-c8ce-3e1d">1</characteristic>
-                <characteristic name="Abilities" typeId="0dc5-c999-dc75-4574">Critical Wound rolls 5+, Ethereal 1</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="7211-e236-dc81-e2af" name="Gáe Bulg" hidden="false" typeId="724e-177d-72f6-2e34" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="a043-4a74-9e04-818d">18&quot;</characteristic>
-                <characteristic name="Attacks" typeId="e7dc-7248-6581-6a5e">1</characteristic>
-                <characteristic name="Hit" typeId="617c-ae43-0c5f-fc05">3+</characteristic>
-                <characteristic name="Wound" typeId="c9f3-9662-cd72-d446">3+</characteristic>
-                <characteristic name="Rend" typeId="2325-6660-26ab-e356">2</characteristic>
-                <characteristic name="Damage" typeId="e5a5-8c0b-c8ce-3e1d">3</characteristic>
-                <characteristic name="Abilities" typeId="0dc5-c999-dc75-4574">Critical Wound rolls 5+, Ethereal 2</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="120d-a3ec-df8a-a53f" name="Gáe Bulg" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">3!</characteristic>
-                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">5</characteristic>
-                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">2+</characteristic>
-                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
-                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">2</characteristic>
-                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">3</characteristic>
-                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Critical Wound rolls 5+, Ethereal 2</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="81a2-478a-5175-b898" name="Cú’s Sword" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">1&quot;</characteristic>
-                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">2</characteristic>
-                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
-                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
-                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">2</characteristic>
-                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">1</characteristic>
-                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Critical Wound rolls 5+, Ethereal 1</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1079,36 +1059,30 @@ At the end of each Movement Step, roll a D6. On the result of 3+ (add 1 to the r
                 <characteristic name="Command" typeId="0dfc-1b4c-c35a-8a03">3</characteristic>
               </characteristics>
             </profile>
-          </profiles>
-          <infoGroups>
-            <infoGroup id="0949-8e4d-ab03-af34" name="Weapons" hidden="false">
-              <profiles>
-                <profile id="f0e1-6fe3-67c5-2351" name="Birga" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">3&quot;</characteristic>
-                    <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">4</characteristic>
-                    <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
-                    <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
-                    <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">2</characteristic>
-                    <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">D3+1</characteristic>
-                    <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Ethereal 2, Hatred-MONSTER 3+
+            <profile id="f2ac-d0e2-0786-bc0c" name="Birga" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">3&quot;</characteristic>
+                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">4</characteristic>
+                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">2</characteristic>
+                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">D3+1</characteristic>
+                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Ethereal 2, Hatred-MONSTER 3+
 </characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="eaf0-9c0c-3ecc-7295" name="Mac an Luinn" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">1&quot;</characteristic>
-                    <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">2</characteristic>
-                    <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
-                    <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
-                    <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">1</characteristic>
-                    <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">2</characteristic>
-                    <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Ethereal 1, Hatred-MONSTER 3+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </infoGroup>
-          </infoGroups>
+              </characteristics>
+            </profile>
+            <profile id="a3bd-1b00-2720-a863" name="Mac an Luinn" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">1&quot;</characteristic>
+                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">2</characteristic>
+                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">1</characteristic>
+                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">2</characteristic>
+                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Ethereal 1, Hatred-MONSTER 3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <entryLinks>
             <entryLink id="7deb-e7f6-d791-e09d" name="Warlord" hidden="false" collective="false" import="true" targetId="d87d-0514-aebf-61a3" type="selectionEntry">
               <constraints>
@@ -1137,35 +1111,29 @@ At the end of each Movement Step, roll a D6. On the result of 3+ (add 1 to the r
                 <characteristic name="Command" typeId="0dfc-1b4c-c35a-8a03">3</characteristic>
               </characteristics>
             </profile>
+            <profile id="47e9-1a10-4ed5-6e0c" name="Blue Claws" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">1&quot;</characteristic>
+                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">4</characteristic>
+                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">-</characteristic>
+                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">1</characteristic>
+                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Ethereal 1, Hatred-MONSTER 3+</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="43e0-63e0-8323-97f2" name="Harsh Bite" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">1&quot;</characteristic>
+                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">2</characteristic>
+                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">1</characteristic>
+                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">2</characteristic>
+                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Devastating, Hatred-MONSTER 3+</characteristic>
+              </characteristics>
+            </profile>
           </profiles>
-          <infoGroups>
-            <infoGroup id="a250-e12d-a156-9f39" name="Weapons" hidden="false">
-              <profiles>
-                <profile id="0fc7-7627-5f87-9490" name="Harsh Bite" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">1&quot;</characteristic>
-                    <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">2</characteristic>
-                    <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
-                    <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
-                    <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">1</characteristic>
-                    <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">2</characteristic>
-                    <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Devastating, Hatred-MONSTER 3+</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="e694-26b9-39fb-9133" name="Blue Claws" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">1&quot;</characteristic>
-                    <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">4</characteristic>
-                    <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
-                    <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
-                    <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">-</characteristic>
-                    <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">1</characteristic>
-                    <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Ethereal 1, Hatred-MONSTER 3+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </infoGroup>
-          </infoGroups>
         </selectionEntry>
         <selectionEntry id="ce7f-14dc-5b0d-d119" name="Sceólang" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -1186,35 +1154,29 @@ At the end of each Movement Step, roll a D6. On the result of 3+ (add 1 to the r
                 <characteristic name="Command" typeId="0dfc-1b4c-c35a-8a03">3</characteristic>
               </characteristics>
             </profile>
+            <profile id="87a8-3b5a-e8b7-0532" name="Blue Claws" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">1&quot;</characteristic>
+                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">4</characteristic>
+                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">-</characteristic>
+                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">1</characteristic>
+                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Ethereal 1, Hatred-MONSTER 3+</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="557b-3faa-a539-6c23" name="Harsh Bite" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">1&quot;</characteristic>
+                <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">2</characteristic>
+                <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
+                <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
+                <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">1</characteristic>
+                <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">2</characteristic>
+                <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Devastating, Hatred-MONSTER 3+</characteristic>
+              </characteristics>
+            </profile>
           </profiles>
-          <infoGroups>
-            <infoGroup id="a768-ec49-e099-8866" name="Weapons" hidden="false">
-              <profiles>
-                <profile id="09f5-dc54-7c90-d3c5" name="Blue Claws" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">1&quot;</characteristic>
-                    <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">4</characteristic>
-                    <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
-                    <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
-                    <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">-</characteristic>
-                    <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">1</characteristic>
-                    <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Ethereal 1, Hatred-MONSTER 3+</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="01f3-42ea-7177-1761" name="Harsh Bite" hidden="false" typeId="96c7-0163-8b17-b7e5" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="628e-fdb9-5d66-ce28">1&quot;</characteristic>
-                    <characteristic name="Attacks" typeId="62dc-96a7-0c0d-b6e8">2</characteristic>
-                    <characteristic name="Hit" typeId="9941-87ec-f12d-8470">3+</characteristic>
-                    <characteristic name="Wound" typeId="bd3b-7607-d65e-7b2e">3+</characteristic>
-                    <characteristic name="Rend" typeId="c8e0-20bb-686c-1caa">1</characteristic>
-                    <characteristic name="Damage" typeId="a20c-aa37-a84d-3082">2</characteristic>
-                    <characteristic name="Abilities" typeId="636c-dd6a-ea7d-0ce8">Devastating, Hatred-MONSTER 3+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </infoGroup>
-          </infoGroups>
         </selectionEntry>
         <selectionEntry id="e851-2427-620f-eee9" name="Rules References" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
