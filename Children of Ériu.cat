@@ -190,6 +190,11 @@
         <categoryLink id="ec1a-f554-b3a3-4d9f" name="MAGE" hidden="false" targetId="8c3e-da64-9b93-a9e6" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="ac17-ba54-8c49-d9ac" name="Faction Triumph" hidden="false" collective="false" import="true" targetId="1ecb-4429-70e3-de32" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="94b6-4b5a-8632-68b9" name="New CategoryLink" hidden="false" targetId="8e72-4f3d-bfb2-b91e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="cb7e-0b2f-baef-5a0b" name="Faction Ability" hidden="false" collective="false" import="true" type="upgrade">
@@ -4552,6 +4557,34 @@ Additionally, while in Human Form, this Formation has an Armour Characteristic o
       <costs>
         <cost name=" Points" typeId="840e-4e1f-ca87-b667" value="300.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="1ecb-4429-70e3-de32" name="Faction Triumph" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba75-8ea0-21dc-d22b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e149-37c7-de3d-3068" name="Weavers of Epis Tales" hidden="false" typeId="6bf2-9bec-072f-7b7c" typeName="Ability">
+          <characteristics>
+            <characteristic name="Description" typeId="35f8-f908-ee8d-46f5">You have a Tale Weaver Counter. At the end of each round (before the Score Triumphs Step), add 1 to your Tale Weaver Counter for each time you met either of the following conditions that round:
+
+-	A Formation from your army successfully cast a Magic Spell that was not dispelled.
+
+-	A Formation from your army successfully destroyed an enemy Formation with an Enchanted Weapon.
+
+At the end of each round:
+ 
+-	You score 2 Victory Points if your Tale Weaver Counter has a value of 5 to 9. 
+
+-	You score 3 Victory Points if your Tale Weaver Counter has a value of 10 to 15. 
+
+-	You score 5 Victory Points if your Tale Weaver Counter has a value of 16+. 
+
+These conditions are not cumulative.
+
+At the start of each round, your Tale Weaver Counter is set to 0.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
